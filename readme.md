@@ -1,6 +1,7 @@
 Computer security for the lazy
 ==============================
 Shit you need to worry about (in order of importance):
+
 * losing your files
 * losing your accounts
 * losing your privacy
@@ -30,11 +31,13 @@ I'll go through ways to keep your communication and browsing private, stay tuned
 Back your shit up
 =================
 Threats to your files (in order of likelihood):
+
 * hard drive failure
 * losing your laptop
 * malicious attacks
 
 You can prevent all of them by keeping proper backups. It's pretty simple:
+
 * Use automated backup software
 * Keep a copy at different places, in case your house burns down
 * Encrypt your backups so other people can't pry into them
@@ -44,12 +47,13 @@ Most of this is taken care of if you use decent backup software like [Crashplan]
 I'm not going to write an in depth guide to get it up and running, I'll let Crashplan's tech support help you with that. The only thing I will add is that you should definitely secure your Crashplan encryption key with a private password, not just leave it at the default settings. With the default settings the friendly staff at Crashplan HQ could have a lot of fun digging through your backups to see those photos you took of yourself naked.
 
 Here's how to secure your backups with a private password:
+
 1. Open Crashplan's desktop application
 2. Go to **Settings**
 3. Go to the **Security** tab
 4. Under archive encryption, select 448-bit (or 128-bit) encryption + password
 5. Enter a *different* password, make it long - 20 characters or more
-6. **Do not forget this password**
+6. Do not forget this password
 
 If you forget the password you won't be able to restore backups, defeating the whole point. Read the (as yet unwritten) lazy guide to passwords for help with managing your passwords.
 
@@ -57,7 +61,10 @@ When you are done, perform a backup, and then test that it has worked by pretend
 
 About this document
 ===================
-This document is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.  
-Last changed October 2012  
-Authors:  
+This document is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.
+
+Last changed October 2012
+
+Authors:
+
 * [Daniel Kinsman](https://danielkinsman.wordpress.com/)
