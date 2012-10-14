@@ -51,7 +51,7 @@ Here's how to secure your backups with a private password:
 1. Open Crashplan's desktop application
 2. Go to **Settings**
 3. Go to the **Security** tab
-4. Under archive encryption, select 448-bit (or 128-bit) encryption + password
+4. Under archive encryption, select **448-bit (or 128-bit) encryption + password**
 5. Enter a *different* password, make it long - 20 characters or more
 6. Do not forget this password
 
