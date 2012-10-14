@@ -10,13 +10,13 @@ Losing your files
 -----------------
 All your photos of family and friends. All your financial records. All your university homework. All that porn you've been stashing. The biggest computer security threat you'll ever have to worry about is losing them. Every hard drive is a ticking time bomb, just waiting to fail. You could accidentally leave your laptop in the back of a taxi and never see it again. Recently there has been a spate of attacks where criminals will gain remote access to your computer, encrypt everything on it, and then demand ransom payment to decrypt it. However it happens the results are the same - you've lost your shit.
 
-Thankfully preventing these problems is easy; back your shit up.
+Thankfully preventing these problems is easy; I'll show you how to *back your shit up*.
 
 Losing your accounts
 --------------------
 Your email. Your internet banking. Your Facebook, Twitter and World of Warcraft character. These are all "accounts" and you can lose them. If you choose a shitty password someone can just guess or "brute force" it. If you're tricked into installing malicious software it can log every keystroke you press, recording your passwords. If you are directed to a spoofed version of a trusted website and you try to log in, you've just given the bad guys your password. If you use the same password everywhere you're truly fucked.
 
-Unfortunately there isn't a single easy solution to these threats. The best thing is having a well calibrated "bullshit" detector. Using a password manager and keeping your computer up to date with security patches will also help. Detailed section on all this coming soon.
+Unfortunately there isn't a single easy solution to these threats. The best thing is having a well calibrated "bullshit" detector. Using a password manager and keeping your computer up to date with security patches will also help. *Don't get hacked*, keep reading and I'll show you how.
 
 Losing your privacy
 -------------------
@@ -26,7 +26,7 @@ Remember that laptop you left in the back of a taxi? Someone could go through al
 
 The threat to privacy is a bit more esoteric than losing your files or accounts, because it isn't obvious when it happens. When you lose your hard drive, you know about it. When someone steals money out of your bank account, you know about it. When Facebook gathers information about the websites you visit and sells it to other companies, you're left in the dark.
 
-I'll go through ways to keep your communication and browsing private, stay tuned.
+To stop this, I'm going to teach you how to *keep that shit private*.
 
 Back your shit up
 =================
@@ -42,7 +42,7 @@ You can prevent all of them by keeping proper backups. It's pretty simple:
 * Keep a copy at different places, in case your house burns down
 * Encrypt your backups so other people can't pry into them
 
-Most of this is taken care of if you use decent backup software like [Crashplan](http://www.crashplan.com/). It keeps incremental backups of your files as you work. It updates itself automatically. You can backup to external hard drives. You can backup to Crashplan's servers "in the cloud" for $$$. You can backup to your friends computers over then net for free (as long as they run Crashplan). Your backups are encrypted so that only you can open them up and see the files. It's available for Linux, Mac and Windows and it's dead easy to setup. In a word it is brilliant, stop reading this and start downloading it.
+Most of this is taken care of if you use decent backup software like [Crashplan](http://www.crashplan.com/). It keeps incremental backups of your files as you work. It updates itself automatically. You can backup to external hard drives. You can backup to Crashplan's servers "in the cloud" for $$$. You can backup to your friends computers over the net for free (as long as they run Crashplan). Your backups are encrypted so that only you can open them up and see the files. It's available for Linux, Mac and Windows and it's dead easy to setup. In a word it is brilliant, stop reading this and start downloading it.
 
 I'm not going to write an in depth guide to get it up and running, I'll let Crashplan's tech support help you with that. The only thing I will add is that you should definitely secure your Crashplan encryption key with a private password, not just leave it at the default settings. With the default settings the friendly staff at Crashplan HQ could have a lot of fun digging through your backups to see those naked photos you took of yourself.
 
@@ -55,9 +55,19 @@ Here's how to secure your backups with a private password:
 5. Enter a *different* password, make it long - 20 characters or more
 6. Do not forget this password
 
-If you forget the password you won't be able to restore backups, defeating the whole point. Read the (as yet unwritten) lazy guide to passwords for help with managing your passwords.
+If you forget the password you won't be able to restore backups, defeating the whole point. Read the *Don't get hacked* section for help with managing your passwords.
 
 When you are done, perform a backup, and then make sure it has worked by pretending that your hard drive has died. Restore some of the files and check that they are ok. You don't want the first test of your backup system to be when you *really* need it, because if it doesn't work then, you're fucked.
+
+Don't get hacked
+================
+
+to do
+
+Keep that shit private
+======================
+
+to do
 
 About this document
 ===================
