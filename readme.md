@@ -1,5 +1,5 @@
 Computer security for the lazy
-==========================================
+==============================
 Shit you need to worry about (in order of importance):
 * losing your files
 * losing your accounts
