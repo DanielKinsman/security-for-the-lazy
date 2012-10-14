@@ -29,7 +29,7 @@ I'll go through ways to keep your communication and browsing private, stay tuned
 
 About this document
 -------------------
+This document is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.  
 Last changed October 2012  
 Authors:  
-* [Daniel Kinsman](https://danielkinsman.wordpress.com/)  
-This document is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.  
+* [Daniel Kinsman](https://danielkinsman.wordpress.com/)
