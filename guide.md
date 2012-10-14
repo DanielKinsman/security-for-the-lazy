@@ -1,4 +1,4 @@
-Dan's computer security guide for the lazy
+Computer security for the lazy
 ==========================================
 Shit you need to worry about (in order of importance):
 * losing your files
@@ -26,3 +26,10 @@ Remember that laptop you left in the back of a taxi? Someone could go through al
 The threat to privacy is a bit more esoteric than losing your files or accounts, because it isn't obvious when it happens. When you lose your hard drive, you know about it. When you someone steals money out of your bank account, you know about it. When Facebook gathers information about the websites you visit and sells it to other companies, you aren't aware that it is happening.
 
 I'll go through the ways to keep your communication and browsing private, stay tuned.
+
+About this document
+-------------------
+Last changed October 2012
+Authors:
+* [Daniel Kinsman](https://danielkinsman.wordpress.com/)
+This document is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.
