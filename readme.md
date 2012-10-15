@@ -62,12 +62,44 @@ When you are done, perform a backup, and then make sure it has worked by pretend
 Don't get hacked
 ================
 
-to do
+Threats to your accounts:
+
+* poor password habits
+* Falling for a con
+* security vulnerabilities is software
+
+Poor password habits
+--------------------
+
+TODO
+
+Falling for a con
+-----------------
+
+"Social engineering" is the computer security term for con artists plying their trade. They have a bag of tricks to throw at you in the hope that you'll hand over access to your online accounts or your computer. I'll go over some of the most common scams.
+
+### Fake tech support phone calls
+You get a call on the telephone and they tell you there's a problem with your computer. They pretend to be helpful tech support people so you follow their instructions and wham, you've just given them remote access to your computer where they can do whatever they want. This includes installing keystroke loggers so they can record everything you type, including all your passwords.
+
+Avoiding this one is easy, just hang up the phone. Or for bonus points, string them along to waste their time. If you get a call you really think is genuine, for example from your employers tech support, hang up anyway, and then *you* call *them* on a number you already know and trust.
+
+### Spoofed emails and websites.
+You get an email that looks like it came from your bank/paypal/etc. Inside the email is a link to the bank/paypal/etc website. It is a instead a counterfit email that doesn't link to the real website, but to a spoofed website that looks exactly the same. You enter your username and password, thereby handing it over to the con artists.
+
+First up, use an email provider with a decent spam filter and most likely you'll never even see these messages in the first place. Apart from that the easiest way to avoid this scam is to never click on links in emails, no matter how genuine they look. If you need to go to your bank/paypal/etc website, open up a browser and type in the address manually. Don't follow those links. You can also spot spoofed emails by their lack of anything that directly relates to you or your account, they will only have generic information that applies to everybody. You will probably get spoof email from paypal even if you don't have a paypal account - because the scammers don't know that.
+
+Identifying a spoofed website is a little trickier, TODO.
+
+Security vulnerabilities is software
+------------------------------------
+
+TODO
+
 
 Keep that shit private
 ======================
 
-to do
+TODO
 
 About this document
 ===================
