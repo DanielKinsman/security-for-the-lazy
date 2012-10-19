@@ -46,6 +46,8 @@ Most of this is taken care of if you use decent backup software like [Crashplan]
 
 I'm not going to write an in depth guide to get it up and running, I'll let Crashplan's tech support help you with that. The only thing I will add is that you should definitely secure your Crashplan encryption key with a private password, not just leave it at the default settings. With the default settings the friendly staff at Crashplan HQ could have a lot of fun digging through your backups to see those naked photos you took of yourself.
 
+![crashplan encryption key settings](images/crashplan.png)
+
 Here's how to secure your backups with a private password:
 
 1. Open Crashplan's desktop application
@@ -79,6 +81,8 @@ Change your passwords frequently too, if a criminal gets access to one, you migh
 
 ### Use a password manager
 You probably don't keep your keys jangling around loosely in the bottom of your bag. You have a *keyring*. Enter the password manager. All your passwords can be stored in a password manager, different ones for every account, all 20 characters or longer and you don't even have to remember them. It's still secure because the keyring itself is locked up in a box. Only you have the one "master password" to open the box and fish out the other ones as needed. Every password manager will include a password generator, so you don't even have to think up the passwords for all your accounts, they can be randomly generated for you.
+
+![keepass screenshot](images/keepass.png)
 
 The password manager I recommend is [KeePass](http://keepass.info/download.html). Just make sure to download the 'Classic' edition and not the 'Professional' edition which is needlessly bloated with dotnet/mono. On windows this means use 'KeePass 1', on Linux/Mac use 'KeePassX'. Downloading, installing and using KeePass is fairly straightforward so I won't spell it out for you.
 
