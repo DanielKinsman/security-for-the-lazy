@@ -1,6 +1,6 @@
 Computer security for the lazy
 ==============================
-This is a guide for the *lazy*. If you are living under a tyrannical government (like Syria or Iran), or if you are a whistleblower, activist, or a journalist wanting to protect your sources, you can't afford to be lazy.
+This is a guide for the *lazy*. If you are living under an opressive government (like Syria or Iran), or if you are a whistleblower, activist, or a journalist wanting to protect your sources, you can't afford to be lazy.
 
 For the rest of us lazy bastards, here's the shit you need to worry about (in order of importance):
 
@@ -69,24 +69,24 @@ Don't get hacked
 Threats to your accounts:
 
 * poor password habits
-* Falling for a con
-* security vulnerabilities is software
+* falling for a con
+* security vulnerabilities in software
 
 Poor password habits
 --------------------
 
 Passwords are keys. Keys are useful, but their effectiveness depends heavily on how you use them. Having a short password is the digital equivalent of keeping the key underneath the doormat. Unlike keys, with passwords the criminals don't run the risk of being caught lifting the TV into their van and subsequently arrested. Instead they can break and enter all day from the comfort and safety of their keyboards. Don't leave it under the mat, use long passwords, 20 characters or more.
 
-You probably have a key for your front door, a key for your car, a key for work etc. If you used the same key for everything, your workmates would be able to steal your car. I'm torturing this metaphor to breaking point, but that is the risk you run online if you use the same password everywhere. Read IT security news and every week you'll hear about the latest high profile website to have been compromised, with users' data (including passwords) being leaked. If you use the same password everywhere, criminals gain access to all your accounts, not just the one.
+You probably have a key for your front door, a key for your car, a key for work etc. If you used the same key for everything, your workmates would be able to steal your car. I'm torturing this metaphor to breaking point, but that is the risk you run if you use the same password everywhere. Read IT security news and every week you'll hear about the latest high profile website to have been compromised, with users' data (including passwords) being leaked. If you use the same password everywhere, when one account is compromised, the bad guys gain access to *all* of your other accounts too.
 
-Change your passwords frequently too, if a criminal gets access to one, you might not know about it. They could just be waiting for your bank balance to increase before it's worth draining.
+Change your passwords frequently too, if a bad guy gets access to one, you might not know about it straight away. They could just be waiting for your bank balance to increase before it's worth draining.
 
 ### Use a password manager
-You probably don't keep your keys jangling around loosely in the bottom of your bag. You have a *keyring*. Enter the password manager. All your passwords can be stored in a password manager, different ones for every account, all 20 characters or longer and you don't even have to remember them. It's still secure because the keyring itself is locked up in a box. Only you have the one "master password" to open the box and fish out the other ones as needed. Every password manager will include a password generator, so you don't even have to think up the passwords for all your accounts, they can be randomly generated for you.
+You probably don't keep your keys jangling around individually in the bottom of your bag. They are most likely all together on a *keyring*. Enter the password manager. All your passwords can be stored in a password manager, different ones for every account, all 20 characters or longer and you don't even have to remember them. It's still secure because the keyring itself is locked up inside a box. Only you have the one "master password" to open the box and fish out the other keys as needed. As a bonus, every password manager will include a password *generator*, so you don't even have to think up new passwords, they can be randomly generated for you.
 
 ![keepass screenshot](images/keepass.png)
 
-The password manager I recommend is [KeePass](http://keepass.info/download.html). Just make sure to download the 'Classic' edition and not the 'Professional' edition which is needlessly bloated with dotnet/mono. On windows this means use 'KeePass 1', on Linux/Mac use 'KeePassX'. Downloading, installing and using KeePass is fairly straightforward so I won't spell it out for you.
+The password manager I recommend is [KeePass](http://keepass.info/download.html). Just make sure to download the 'Classic' edition and not the 'Professional' edition which is needlessly bloated with dotnet / mono. On windows this means grabbing 'KeePass 1', on Linux/Mac 'KeePassX'. Downloading, installing and using KeePass is fairly straightforward so I won't spell it out for you.
 
 **Extremely important - make your "master password" long**. The master password is a single point of failure, meaning that if someone else gets it, they get *all* your passwords. Don't use '12345'. Pick a sentence or a sequence of words, for example 'elevator principle mirth condiment existential vommit'. If your imagination fails you, pick random words [using dice and a dictionary](http://world.std.com/~reinhold/diceware.html).
 
@@ -98,14 +98,14 @@ Falling for a con
 "Social engineering" is the computer security term for con artists plying their trade. They have a bag of tricks to throw at you in the hope that you'll hand over access to your online accounts or your computer. I'll go over some of the most common scams.
 
 ### Fake tech support phone calls
-You get a call on the telephone and they tell you there's a problem with your computer. They pretend to be helpful tech support people so you follow their instructions and wham, you've just given them remote access to your computer where they can do whatever they want. This includes installing keystroke loggers so they can record everything you type, including all your passwords.
+Someone calls you on the telephone and tells you that there's a problem with your computer. They pretend to be helpful tech support people so you follow their instructions and wham, you've just given them remote access to your computer where they can do whatever they want. This includes installing keystroke loggers so they can record everything you type, including all your passwords.
 
-Avoiding this one is easy, just hang up the phone. Or for bonus points, string them along to waste their time. If you get a call you really think is genuine, for example from your employers tech support, hang up anyway, and then *you* call *them* on a number you already know and trust.
+Avoiding this one is easy, just hang up the phone. Or for bonus points, string them along to waste their time. If you get a call you think is actually genuine, for example from your employer's tech support, hang up anyway, and then *you* call *them* on a number you already know and trust.
 
 ### Spoofed websites and emails.
-You get an email that looks like it came from your bank/paypal/etc. Inside the email is a link to the bank/paypal/etc website. It is a instead a counterfit email that doesn't link to the real website, but to a spoofed website that looks exactly the same. You enter your username and password, thereby handing it over to the con artists.
+You get an email that looks like it came from your bank/paypal/etc. Inside the email is a link that appears to point to the website of the bank/paypal/etc. But it's really a counterfit email that links to a spoofed website which mimics the real one. You enter your username and password, thereby handing it over to the con artists.
 
-First up, use an email provider with a decent spam filter and most likely you'll never even see these messages in the first place. Apart from that the easiest way to avoid this scam is to never click on links in emails, no matter how genuine they look. If you need to go to your bank/paypal/etc website, open up a browser and type in the address manually. Don't follow those links. You can also spot spoofed emails by their lack of anything that directly relates to you or your account, they will only have generic information that applies to everybody. You will probably get spoof email from paypal even if you don't have a paypal account - because the scammers don't know that.
+If you use an email provider with a decent spam filter, most likely you'll never even see these messages in the first place. Apart from that the easiest way to avoid this scam is to never click on links in emails, no matter how genuine they look. If you need to go to your bank/paypal/etc website, open up a browser and type in the address manually. Don't follow those links. You can also spot spoofed emails by their lack of anything that directly relates to you or your account, they will only have generic information that applies to everybody. You will probably get spoof email from paypal even if you don't have a paypal account - because the scammers don't know that.
 
 Email is one of the older ways to con you in to visiting a spoofed website, now there's facebook, twitter, you name it. Most people trust their "friends" and will click on the links that they post. But if your "friend's" account has been compromised, the spammers can post anything they like, including links to spoofed websites. So you need to know how to spot them. There are some fake website detectors built in to most browsers which can automatically protect you. They all rely on keeping a blacklist of known fakes though, so if a new one pops up there can be a delay before it gets added to the list. You still have to keep an eye out.
 
@@ -125,7 +125,7 @@ Spot the difference? Look in the address bar - where the spoof site shows a glob
 
 The pictures say it all really.
 
-Security vulnerabilities is software
+Security vulnerabilities in software
 ------------------------------------
 
 TODO
