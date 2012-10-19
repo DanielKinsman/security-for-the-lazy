@@ -83,12 +83,28 @@ You get a call on the telephone and they tell you there's a problem with your co
 
 Avoiding this one is easy, just hang up the phone. Or for bonus points, string them along to waste their time. If you get a call you really think is genuine, for example from your employers tech support, hang up anyway, and then *you* call *them* on a number you already know and trust.
 
-### Spoofed emails and websites.
+### Spoofed websites and emails.
 You get an email that looks like it came from your bank/paypal/etc. Inside the email is a link to the bank/paypal/etc website. It is a instead a counterfit email that doesn't link to the real website, but to a spoofed website that looks exactly the same. You enter your username and password, thereby handing it over to the con artists.
 
 First up, use an email provider with a decent spam filter and most likely you'll never even see these messages in the first place. Apart from that the easiest way to avoid this scam is to never click on links in emails, no matter how genuine they look. If you need to go to your bank/paypal/etc website, open up a browser and type in the address manually. Don't follow those links. You can also spot spoofed emails by their lack of anything that directly relates to you or your account, they will only have generic information that applies to everybody. You will probably get spoof email from paypal even if you don't have a paypal account - because the scammers don't know that.
 
-Identifying a spoofed website is a little trickier, TODO.
+Email is one of the older ways to con you in to visiting a spoofed website, now there's facebook, twitter, you name it. Most people trust their "friends" and will click on the links that they post. But if your "friend's" account has been compromised, the spammers can post anything they like, including links to spoofed websites. So you need to know how to spot them. There are some fake website detectors built in to most browsers which can automatically protect you. They all rely on keeping a blacklist of known fakes though, so if a new one pops up there can be a delay before it gets added to the list. You still have to keep an eye out.
+
+Identifying a spoofed website requires a tiny bit of your attention. Trusted authorities give out "certificates" to verify that websites are who they say they are, and not someone else faking it. The easiest way to detect a spoof is the absence of any such certificate. Let's open Firefox and play spot the difference:
+
+![spoofed website](images/sitespoof.png)
+
+This is ING's internet banking site. Just kidding! It's actually spoof of their site that I made. All I had to do was download the page, chuck it on a simple local webserver, and edit my hosts file to make my computer think www.ingdirect.com.au is my own machine. Took 5 minutes. Here is the real site:
+
+![real website](images/sitereal.png)
+
+Spot the difference? Look in the address bar - where the spoof site shows a globe, the real site shows a padlock. This indicates that the real website is using https, not plain http. The "s" stands for "secure". The bank's real site also supplies identity information, which you can see by clicking on the padlock or globe icon. let's take a look:
+
+![spoofed website](images/sitespoofidentity.png)
+
+![spoofed website](images/siterealidentity.png)
+
+Pictures say it all really.
 
 Security vulnerabilities is software
 ------------------------------------
