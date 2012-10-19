@@ -71,7 +71,20 @@ Threats to your accounts:
 Poor password habits
 --------------------
 
-TODO
+Passwords are keys. Keys are useful, but their effectiveness depends heavily on how you use them. Having a short password is the digital equivalent of keeping the key underneath the doormat. Unlike keys, with passwords the criminals don't run the risk of being caught lifting the TV into their van and subsequently arrested. Instead they can break and enter all day from the comfort and safety of their keyboards. Don't leave it under the mat, use long passwords, 20 characters or more.
+
+You probably have a key for your front door, a key for your car, a key for work etc. If you used the same key for everything, your workmates would be able to steal your car. I'm torturing this metaphor to breaking point, but that is the risk you run online if you use the same password everywhere. Read IT security news and every week you'll hear about the latest high profile website to have been compromised, with users' data (including passwords) being leaked. If you use the same password everywhere, criminals gain access to all your accounts, not just the one.
+
+Change your passwords frequently too, if a criminal gets access to one, you might not know about it. They could just be waiting for your bank balance to increase before it's worth draining.
+
+### Use a password manager
+You probably don't keep your keys jangling around loosely in the bottom of your bag. You have a *keyring*. Enter the password manager. All your passwords can be stored in a password manager, different ones for every account, all 20 characters or longer and you don't even have to remember them. It's still secure because the keyring itself is locked up in a box. Only you have the one "master password" to open the box and fish out the other ones as needed.
+
+The password manager I recommend is [KeePass](http://keepass.info/download.html). Just make sure to download the 'Classic' edition and not the 'Professional' edition which is infested with dotnet/mono crap. On windows this means use 'KeePass 1', on Linux/Mac use 'KeePassX'. Using KeePass is fairly straightforward so I won't spell it out for you.
+
+**Extremely important - make your "master password" long**. The master password is a single point of failure, meaning that if someone else gets it, they get *all* your passwords. Don't use '12345'. Pick a sentence or a sequence of words, for example 'elevator principle mirth condiment existential vommit'. If your imagination fails you, pick random words [using dice and a dictionary](http://world.std.com/~reinhold/diceware.html).
+
+If you frequently use different computers or devices, put your password database on a USB stick or upload it to some 'cloud storage' like dropbox. There's a portable version of KeePass that runs off of a USB stick, and versions for iOS, Android, and everything under the sun. If someone else gets their hands on your password database it doesn't matter, as long as you keep the master password safe.
 
 Falling for a con
 -----------------
@@ -104,7 +117,7 @@ Spot the difference? Look in the address bar - where the spoof site shows a glob
 
 ![spoofed website](images/siterealidentity.png)
 
-Pictures say it all really.
+The pictures say it all really.
 
 Security vulnerabilities is software
 ------------------------------------
