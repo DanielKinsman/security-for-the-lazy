@@ -1,6 +1,8 @@
 Computer security for the lazy
 ==============================
-Shit you need to worry about (in order of importance):
+This is a guide for the *lazy*. If you are living under a tyrannical government (like Syria or Iran), or if you are a whistleblower, activist, or a journalist wanting to protect your sources, you can't afford to be lazy.
+
+For the rest of us lazy bastards, here's the shit you need to worry about (in order of importance):
 
 * losing your files
 * losing your accounts
