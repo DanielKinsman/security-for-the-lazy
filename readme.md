@@ -78,7 +78,7 @@ You probably have a key for your front door, a key for your car, a key for work 
 Change your passwords frequently too, if a criminal gets access to one, you might not know about it. They could just be waiting for your bank balance to increase before it's worth draining.
 
 ### Use a password manager
-You probably don't keep your keys jangling around loosely in the bottom of your bag. You have a *keyring*. Enter the password manager. All your passwords can be stored in a password manager, different ones for every account, all 20 characters or longer and you don't even have to remember them. It's still secure because the keyring itself is locked up in a box. Only you have the one "master password" to open the box and fish out the other ones as needed.
+You probably don't keep your keys jangling around loosely in the bottom of your bag. You have a *keyring*. Enter the password manager. All your passwords can be stored in a password manager, different ones for every account, all 20 characters or longer and you don't even have to remember them. It's still secure because the keyring itself is locked up in a box. Only you have the one "master password" to open the box and fish out the other ones as needed. Every password manager will include a password generator, so you don't even have to think up the passwords for all your accounts, they can be randomly generated for you.
 
 The password manager I recommend is [KeePass](http://keepass.info/download.html). Just make sure to download the 'Classic' edition and not the 'Professional' edition which is infested with dotnet/mono crap. On windows this means use 'KeePass 1', on Linux/Mac use 'KeePassX'. Using KeePass is fairly straightforward so I won't spell it out for you.
 
