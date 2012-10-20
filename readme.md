@@ -1,6 +1,6 @@
 Computer security for the lazy
 ==============================
-This is a guide for the *lazy*. If you are living under an opressive government (like Syria or Iran), or if you are a whistleblower, activist, or a journalist wanting to protect your sources, you can't afford to be lazy.
+This is a draft still being written, so you might want to wait until it's completed and reviewed by a third party to make sure I'm not giving any bad advice. It's a guide for the *lazy*. If you are living under an opressive government (like Syria or Iran), or if you are a whistleblower, activist, or a journalist wanting to protect your sources, you can't afford to be slack.
 
 For the rest of us lazy bastards, here's the shit you need to worry about (in order of importance):
 
