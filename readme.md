@@ -35,7 +35,7 @@ Back your shit up
 Threats to your files (in order of likelihood):
 
 * hard drive failure
-* losing your laptop
+* losing your laptop / phone
 * malicious attacks
 
 You can prevent all of them by keeping proper backups. It's pretty simple:
@@ -46,7 +46,9 @@ You can prevent all of them by keeping proper backups. It's pretty simple:
 
 Most of this is taken care of if you use decent backup software like [Crashplan](http://www.crashplan.com/). It keeps incremental backups of your files as you work. It updates itself automatically. You can backup to external hard drives. You can backup to Crashplan's servers "in the cloud" for $$$. You can backup to your friends computers over the net for free (as long as they run Crashplan). Your backups are encrypted so that only you can open them up and see the files. It's available for Linux, Mac and Windows and it's dead easy to setup. In a word it is brilliant, stop reading this and start downloading it.
 
-I'm not going to write an in depth guide to get it up and running, I'll let Crashplan's tech support help you with that. The only thing I will add is that you should definitely secure your Crashplan encryption key with a private password, not just leave it at the default settings. With the default settings the friendly staff at Crashplan HQ could have a lot of fun digging through your backups to see those naked photos you took of yourself.
+I haven't found a solution I'm overly fond of for automatically backing up smartphones / tablets. These devices are mostly used for browsing content, not producing it, so there's less important stuff to lose. The few exceptions are contact information and photos taken with the built in camera. I copy these to my computer periodically, where they are backup up by Crashplan.
+
+I'm not going to write an in depth guide to get Crashplan up and running, I'll let their tech support help you with that. The only thing I will add is that you should definitely secure your Crashplan encryption key with a private password, not just leave it at the default settings. With the default settings the friendly staff at Crashplan HQ could have a lot of fun digging through your backups to see those naked photos you took of yourself.
 
 ![crashplan encryption key settings](images/crashplan.png)
 
@@ -123,7 +125,7 @@ Spot the difference? Look in the address bar - where the spoof site shows a glob
 
 ![spoofed website](images/siterealidentity.png)
 
-The pictures say it all really.
+The pictures say it all really. Other browsers, including mobile browsers for iOS and Android, should have similar "padlock" features, though you might have to hunt for them. [Firefox mobile](https://www.mozilla.org/mobile/) for Android works particularly well.
 
 Security vulnerabilities in software
 ------------------------------------
