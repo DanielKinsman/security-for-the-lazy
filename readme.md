@@ -130,7 +130,17 @@ The pictures say it all really. Other browsers, including mobile browsers for iO
 Security vulnerabilities in software
 ------------------------------------
 
-TODO
+This one is fairly straightforward. Software is always full of bugs. Bad people find bugs, and exploit them to install keyloggers, backdoors or whatever they like on your machine. This is often used in conjunction with social engineering cons. A [recent example](https://twitter.com/meta_lab/status/258450874735677440) is a spreadsheet titled "List of Tibet political self-immolations.xls" doing the rounds, promising "Rare footage shows extreme measures of Tibetan protesters". If you download and open the spreasheet, it will use security vulnerabilities in Microsoft Windows and Excel to install bad stuff.
+
+Some of the worst security bugs however don't even need any action on your part to compromise your computer - just being on the network is enough. This may also the case with your router / modem, which is vulnerable to attack. Once it is compromised they can spy on all your browsing, and use it to redirect your traffic to spoofed websites. Recently [4.5 million DSL models in Brazil were compromised](http://arstechnica.com/security/2012/10/dsl-modem-hack-infects-millions-with-malware/), with many internet banking accounts lost.
+
+The best way to avoid someone exploiting these security vulnerabilities is to keep your software up to date. Upgrade your browser. Download those security patches for your operating system. Don't pirate software, you can't trust the source and often you will miss out on any security updates. Use a free operating system like [Ubuntu](http://www.ubuntu.com/) rather than pirate.
+
+Ideally replace your router / modem's firmware with Open Source software like [OpenWrt](https://openwrt.org/), [DD-WRT](http://www.dd-wrt.com/site/index) or [Tomato](http://www.polarcloud.com/tomato). Failing that, upgrade the standard firmware by visiting the manufacturers website.
+
+You might think that I'd recommend anti-virus, but I don't. It slows down your computer and won't protect you from the latest viruses anyway, because it takes them a while to come up with a "vaccine". Anti-virus is the last line of defense, not the first. Install it on your Grandma's computer, but if you follow the rest of this guide, you probably won't need it.
+
+TODO: mobile
 
 
 Keep that shit private
