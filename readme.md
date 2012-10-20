@@ -140,7 +140,7 @@ Ideally replace your router / modem's firmware with open source software like [O
 
 You might expect me to recommend anti-virus, but I don't. It slows down your computer and won't protect you from the latest viruses anyway, because it takes them a little while to come up with a "vaccine" for them. Anti-virus is the last line of defense, not the first. Sure, install it on your Grandma's computer, but if you follow the rest of this guide, you probably won't need it.
 
-Most mobile operating systems get this right, including automatic "over the air" updates so you don't have to worry about it.  Of course you still have to keep an eye out for dodgy malicious software and not install it. Take a peek at the permissions granted to those apps before you download them. There's no reason for "The Simpsons" soundboard app to have internet access and the ability to send text messages.
+Most mobile / tablet operating systems get security updates right, they use automatic "over the air" updates so you don't have to worry about it.  Of course you still have to keep an eye out for dodgy malicious software and not install it. Take a peek at the permissions granted to those apps before you download them. There's no reason for "The Simpsons" soundboard app to have internet access and the ability to send text messages.
 
 Keep that shit private
 ======================
