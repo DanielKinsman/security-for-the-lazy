@@ -145,6 +145,31 @@ I don't recommend anti-virus software. It slows down your computer and won't pro
 Keep that shit private
 ======================
 
+Keeping your shit private obviously depends on not getting hacked as described in the previous chapter. If your computer is compromised, the bad guys can see all your stuff. But there are some other threats to your privacy that don't involve getting direct access to your computer or accounts:
+
+* Facebook, Google tracking
+* IP address tracking
+* Man the in the middle interceptions
+* The files on your lost or stolen laptop / phone
+
+Facebook, Google tracking
+-------------------------
+
+TODO
+
+IP address tracking
+-------------------
+
+TODO
+
+Man in the middle interceptions
+-------------------------------
+
+TODO
+
+The files on your lost or stolen laptop / phone
+-----------------------------------------------
+
 TODO
 
 About this document
