@@ -160,7 +160,15 @@ TODO
 IP address tracking
 -------------------
 
-TODO
+Your IP address is you. Every website you visit knows your IP address, which gives them an indirect way to find out who and where you are. Just visit a website like [what's my ip address](http://whatismyipaddress.com/) to see what they can see - namely your IP address, the city you live in and the ISP you use. If your ISP co-operates with them through legal means they can find out exactly what your name is and where you live. Here's mine (with the part of the IP address redacted):
+
+![ip address](images/ip.png)
+
+The way to stop IP address tracking is to bounce your signal off of another carrier. The best ways of doing this include using [tor](https://torproject.org), or a virtual private network (VPN). Here's a grab of what it looks like to the outside world:
+
+![ip address through tor](images/iptor.png)
+
+Note that I do not live in Sweden! Tor and VPNs also help protect you from man in the middle interceptions, so keep reading into that section and I'll explain their use.
 
 Man in the middle interceptions
 -------------------------------
