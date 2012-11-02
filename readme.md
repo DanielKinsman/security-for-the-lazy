@@ -155,6 +155,16 @@ Keeping your shit private obviously depends on not getting hacked as described i
 Facebook, Google tracking
 -------------------------
 
+[The adage](http://www.metafilter.com/95152/Userdriven-discontent#3256046) says "If you aren't paying for something, you're not the customer; *you're the product being sold*". Google, Facebook and the like are collecting data about your browsing habits, what you are interested in, what political viewpoints you may hold, and using it to sell ads, or worse, possibly selling the data to third parties.
+
+Overview (flesh out later)
+
+* collusion
+* disable third party cookies
+* use duckduckgo
+* adblock easyprivacy
+* privoxy?
+
 TODO
 
 IP address tracking
@@ -170,7 +180,7 @@ The way to stop IP address tracking is to bounce your signal off of another carr
 
 Note that I do not live in Sweden! Tor actually bounces your signal through three separate relays.
 
-![tor relay diagram](images/tor.png)
+![tor relay diagram](images/tor.png) (image provided by the tor project)
 
 The first replay knows your IP address, but doesn't know what website you are looking at, because the traffic is encrypted. The second relay knows nothing, it just forwards the encrypted traffic from the first relay to the third. The third relay has to fetch the website content from the normal internet - so it knows what you are looking at, but it doesn't know who you are.
 
