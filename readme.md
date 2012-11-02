@@ -164,16 +164,61 @@ Your IP address is you. Every website you visit knows your IP address, which giv
 
 ![ip address](images/ip.png)
 
-The way to stop IP address tracking is to bounce your signal off of another carrier. The best ways of doing this include using [tor](https://torproject.org), or a virtual private network (VPN). Here's a grab of what it looks like to the outside world:
+The way to stop IP address tracking is to bounce your signal off of another carrier. One of the best ways of doing this is using [tor](https://torproject.org). Download the tor browser bundle, open it up and run it. You'll see the tor control panel (vidalia) pop up and once it connects you to the tor network, a browser will pop up. Everything you do in that browser will run over the tor network, hiding your IP address. Here's a grab of what it looks like to the outside world:
 
 ![ip address through tor](images/iptor.png)
 
-Note that I do not live in Sweden! Tor and VPNs also help protect you from man in the middle interceptions, so keep reading into that section and I'll explain their use.
+Note that I do not live in Sweden! Tor actually bounces your signal through three separate relays.
+
+![tor relay diagram](images/tor.png)
+
+The first replay knows your IP address, but doesn't know what website you are looking at, because the traffic is encrypted. The second relay knows nothing, it just forwards the encrypted traffic from the first relay to the third. The third relay has to fetch the website content from the normal internet - so it knows what you are looking at, but it doesn't know who you are.
+
+*This is the main caveat with using tor*; the exit relay could possibly snoop on your traffic. If you are just browsing content unrelated to you, this isn't a problem. Just beware that if you are posting identifying information about yourself, such as photos you have taken, the exit relay might look at them. You can get around this by encrypting the traffic end-to-end using https, which is covered in the "man in the middle section" up next.
+
+Tor is available for Android using [Orbot](https://guardianproject.info/apps/orbot/) and [plugging it in to Firefox mobile](https://guardianproject.info/apps/proxymob-firefox-add-on/). Apple iOS users might want to look into [Onion Browser](http://v3.mike.tig.as/onionbrowser/).
 
 Man in the middle interceptions
 -------------------------------
 
-TODO
+When you send mail in the post, you don't want it opened and read by the mailman. That's why you put it in an envelope rather than using postcards for everything. But for a lot of communication and browsing on the internet, anyone on the network between you and the destination can snoop on the traffic. This includes your ISP who may be legally required to log your browsing (depending on country), but it also extends to people on the same public wifi network as you.
+
+The "man in the middle" principle is the same for multiple uses of the internet, be it web browsing, sending email, or instant messaging (IM). The solution for each is conceptually the same; use end to end encryption. Encryption encodes the information before transit so that only the intended recipient can view it. To everyone else on the line it looks like gobbledegook. There's a different way of performing encryption for each use however:
+
+* For web browsing, there's https
+* For email, there's OpenPGP
+* For instant messengers, there's Off The Record (OTR) messaging
+
+### Web browsing and https
+Https is already baked in to your web browser. You do need to keep an eye out in the address bar to make sure that you are using *https*, not the insecure *http*. Look for the padlock icon, here's a refresher:
+
+![spoofed website](images/sitespoofidentity.png)
+
+No https. Bad.
+
+![spoofed website](images/siterealidentity.png)
+
+Https. Good.
+
+I recommend installing the [https everywhere](https://www.eff.org/https-everywhere) browser extension which will redirect you to the secure https version of *some* sites automatically. Ultimately though a few sites just don't provide support for https. Browsing insecurely is okay for the most part, but never submit any details to them by filling out forms with your personal details (credit card number, address, username, password etc) or by uploading files to them.
+
+### Email and OpenPGP
+
+Using OpenPGP you can encrypt your messages so that only the recipient can read them. I won't go into details as i don't think it is "for the lazy", and it also depends on the other party using it as well. If you are interested, read the [cryptoparty handbook](https://cryptoparty.org/wiki/CryptoPartyHandbook) and get started by installing [GnuPG](http://gnupg.org/), [Thunderbird](https://www.mozilla.org/thunderbird/), and [Enigmail](http://www.enigmail.net/home/index.php).
+
+### Instant messaging Off The Record (OTR)
+
+Google talk, Skype, Facebook chat, XMPP, whatever chat network you use, odds are it's vulnerable to the man in the middle. With [Off the record messaging](http://www.cypherpunks.ca/otr/) you can fix that. The easiest way of getting it is to use a third party chat client such as [pidgin](https://pidgin.im/). Install pidgin, pidgin's OTR plugin, and add your chat accounts. Open the tools->plugins dialog and enable the Off the Record plugin:
+
+![pidgin otr plugin](images/pidgin-otr.png)
+
+Hit the "Configure Plugin" button and generate yourself a private key. Now when you start an IM conversation with someone, in the bottom right hand corner you'll see whether or not it is encrypted. It will say "Not private" in red or "private" in green. Click it to start/stop an encrypted chat session. It will only work if the other person has OTR as well, but you'll still be able to chat normally with people who don't.
+
+![chatting without encryption](images/pidgin-not-encrypted.png)
+
+![chatting with encryption](images/pidgin-encrypted.png)
+
+Google talk and Facebook chat work via XMPP behind the scenes so they work with both pidgin and OTR. Bad news for Skypers - you'll have to change networks. Mobile chatters should use [Gibberbot](https://play.google.com/store/apps/details?id=info.guardianproject.otr.app.im) on Android or [ChatSecure](http://chrisballinger.info/apps/chatsecure/) on iOS.
 
 The files on your lost or stolen laptop / phone
 -----------------------------------------------
