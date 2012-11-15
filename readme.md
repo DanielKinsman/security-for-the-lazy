@@ -167,6 +167,8 @@ Enough doom and gloom, here's what you can do to stop it. I cheated and grabbed 
 
 Then scroll down to find "EasyPrivacy" and add it. Next open up your privacy settings, select "use custom settings for history", untick the "Accept third-party cookies" checkbox, and only keep cookies until "I close Firefox". That last one will mean that most websites you login to won't be able to "remember" who you are, so you'll need to login again whenver you close and reopen Firefox. That shouldn't be too much of a pain if you are using a password manager (see keepass mentioned previously) which can automatically type them out for you.
 
+Unfortunately similar cookie settings on mobile browsers are often difficult to find without fiddling. Adblock plus is available for Firefox mobile but I wasn't able to change the filter subscriptions after the initial setup. Hopefully this will improve in the future.
+
 One easy way of avoiding being tracked is simply to stop using sites that track you. Use [Duck Duck Go](https://duckduckgo.com/) instead of Google for searching. Ditch Facebook.
 
 IP address tracking
