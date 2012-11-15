@@ -147,25 +147,27 @@ Keep that shit private
 
 Keeping your shit private obviously depends on not getting hacked as described in the previous chapter. If your computer is compromised, the bad guys can see all your stuff. But there are some other threats to your privacy that don't involve getting direct access to your computer or accounts:
 
-* Facebook, Google tracking
+* Facebook, Google etc tracking
 * IP address tracking
 * Man the in the middle interceptions
 * The files on your lost or stolen laptop / phone
 
-Facebook, Google tracking
--------------------------
+Facebook, Google etc tracking
+-----------------------------
 
 [The adage](http://www.metafilter.com/95152/Userdriven-discontent#3256046) says "If you aren't paying for something, you're not the customer; *you're the product being sold*". Google, Facebook and the like are collecting data about your browsing habits, what you are interested in, what political viewpoints you may hold, and using it to sell ads, or worse, possibly selling the data to third parties.
 
-Overview (flesh out later)
+A great way of seeing this happening as you browse is to install the "Collusion" addon for Firefox. Open it up, and throughout your browsing session every time you are tracked it will draw links between the sites you visit and the advertising networks that track you. But of course this is a guide for the lazy so have a look at [their quick demo](https://www.mozilla.org/en-US/collusion/demo/) instead, or here's a pic of what a standard browsing session looks like:
 
-* collusion
-* disable third party cookies
-* use duckduckgo
-* adblock easyprivacy
-* privoxy?
+[![spoofed website](images/collusion.png)](https://www.mozilla.org/en-US/collusion/demo/)
 
-TODO
+Enough doom and gloom, here's what you can do to stop it. I cheated and grabbed this mostly from the [Electronic Frontier Foundation](https://www.eff.org/deeplinks/2012/04/4-simple-changes-protect-your-privacy-online). Install the [Adblock Plus](https://addons.mozilla.org/firefox/addon/adblock-plus/) browser extension. Open up it's configuration and add a filter subscription to "EasyPrivacy". You'll need to hit the "add a different subscription" hyperlink in there:
+
+![adblock filter configuration](images/adblock-filter.png)
+
+Then scroll down to find "EasyPrivacy" and add it. Next open up your privacy settings, select "use custom settings for history", untick the "Accept third-party cookies" checkbox, and only keep cookies until "I close Firefox". That last one will mean that most websites you login to won't be able to "remember" who you are, so you'll need to login again whenver you close and reopen Firefox. That shouldn't be too much of a pain if you are using a password manager (see keepass mentioned previously) which can automatically type them out for you.
+
+One easy way of avoiding being tracked is simply to stop using sites that track you. Use [Duck Duck Go](https://duckduckgo.com/) instead of Google for searching. Ditch Facebook.
 
 IP address tracking
 -------------------
