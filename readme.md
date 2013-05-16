@@ -243,6 +243,8 @@ People often keep important stuff they wouldn't want to show anyone on their pho
 * Photos and videos (both innocent and not so innocent)
 * Passwords to other accounts (especially stored in the phone's browser)
 * Sms and call records
+* Browser history
+* Financial records (generally on laptops, not phones)
 
 ### Phones and tablets
 
@@ -256,15 +258,45 @@ On android the process will take a little longer. Make sure the phone is plugged
 
 ### Laptops
 
-Encryption is the solution to protect data on your lost laptops as well. Depending on the operating system you use, there are different approaches.
+To stop people from going through the files on your lost or stolen laptop, you need to encrypt them. Most Linux distributions will give you the option to encrypt the home directory (which contains all your personal files) as part of the install. Just choose that and you're done. If you want to enable encryption on a system you've already got installed and running, here's how:
 
+1. Install ecryptfs (the `ecryptfs-utils` package) using the package manager of your choice (Ubuntu software center, apt-get, Synaptic etc).
+2. Make sure the computer is not running on batteries and that you can leave it running for an hour or so.
+2. Open a command line terminal (don't be scared) and type `sudo ecryptfs-setup-private`.
+3. Follow the prompts and instructions.
+4. Do `sudo ecryptfs-setup-swap` the same way.
+
+Once you've done that you're good to go, logging in normally will give you access to the encrypted data and it will all be seamless. Just make sure to use a good password and to follow the advice the ecryptfs prompt gave you when it told you to backup your passphrase.
+
+On Windows and OSX, things are a bit more fiddly, you're probably better off using [Truecrypt](https://www.truecrypt.org/) to create a small encrypted container and storing your most private files in there. It's just a pain because every time you want to access them you are going to have to open truecrypt, mount the container and enter the passphrase for it. Also it won't protect stuff like your browser settings and history, or anything else that you can't just move and shove into the encrypted folder.
+
+Here's how to create the Truecrypt container in the first place:
+
+1. Download and install Truecrypt from their website.
+2. Run the Truecrypt application and click "create volume"
+3. Follow the prompts, using the defaults.
+
+Then when you want to access the encrypted stuff:
+
+1. Run the Truecrypt application and click "select file".
+2. Choose the encrypted container you created earlier.
+3. Click "mount"
+4. Enter the passhprase for it.
+
+Truecrypt can also be used on Linux if desired, and is a good choice for encrypting files on usb thumbsticks that you might lose. Just rememver to make the password long, and don't forget it (just use keepass already).
+
+Finally, people who aren't lazy should look into full disk encryption. And if you've read this far, maybe you aren't so lazy after all.
 
 About this document
 ===================
 This document is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.
 
-Last changed October 2012
+Last updated May 2013
 
 Authors:
 
 * [Daniel Kinsman](https://danielkinsman.wordpress.com/)
+
+Contact / Questions:
+
+* [danielkinsman@gmail.com](mailto:danielkinsman@gmail.com) ([gpg key](http://sks.spodhuis.org/pks/lookup?op=vindex&search=0x709C423C750B8627))
