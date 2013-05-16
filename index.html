@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Security-for-the-lazy : Computer security for the lazy" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Security-for-the-lazy</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/DanielKinsman/security-for-the-lazy">View on GitHub</a>
+
+          <h1 id="project_title">Security-for-the-lazy</h1>
+          <h2 id="project_tagline">Computer security for the lazy</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/DanielKinsman/security-for-the-lazy/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/DanielKinsman/security-for-the-lazy/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>Computer security for the lazy</h1>
+
+<p>This is a draft still being written, so you might want to wait until it's completed and reviewed by a third party to make sure I'm not giving any bad advice. It's a guide for the <em>lazy</em>. If you are living under an opressive government (like Syria or Iran), or if you are a whistleblower, activist, or a journalist wanting to protect your sources, you can't afford to be slack.</p>
+
+<p>For the rest of us lazy bastards, here's the shit you need to worry about (in order of importance):</p>
+
+<ul>
+<li>losing your files</li>
+<li>losing your accounts</li>
+<li>losing your privacy</li>
+</ul><h2>Losing your files</h2>
+
+<p>All your photos of family and friends. All your financial records. All your university homework. All that porn you've been stashing. The biggest computer security threat you'll ever have to worry about is losing them. Every hard drive is a ticking time bomb, just waiting to fail. You could accidentally leave your laptop in the back of a taxi and never see it again. Recently there has been a spate of attacks where criminals will gain remote access to your computer, encrypt everything on it, and then demand ransom payment to decrypt it. However it happens the results are the same - you've lost your shit.</p>
+
+<p>Thankfully preventing these problems is easy; I'll show you how to <em>back your shit up</em>.</p>
+
+<h2>Losing your accounts</h2>
+
+<p>Your email. Your internet banking. Your Facebook, Twitter and World of Warcraft character. These are all "accounts" and you can lose them. If you choose a shitty password someone can just guess or "brute force" it. If you're tricked into installing malicious software it can log every keystroke you press, recording your passwords. If you are directed to a spoofed version of a trusted website and you try to log in, you've just given the bad guys your password. If you use the same password everywhere you're truly fucked.</p>
+
+<p>Unfortunately there isn't a single easy solution to these threats. Having a well calibrated "bullshit" detector is essential. Using a password manager and keeping your computer up to date with security patches will also help. <em>Don't get hacked</em>, keep reading and I'll show you how.</p>
+
+<h2>Losing your privacy</h2>
+
+<p>Take any private photos of you and your partner? Do you write a pseudonymous blog like "<a href="https://en.wikipedia.org/wiki/Belle_de_Jour_%28writer%29">Belle de Jour</a>" or at the other end of the sexual activity spectrum, "<a href="http://www.shomernegiah.blogspot.com/">Nice Jewish Girl</a>"? Don't want someone going through the soppy love poems emailed to your partner? Want to complain about work to a friend over chat / IM without getting fired?</p>
+
+<p>Remember that laptop you left in the back of a taxi? Someone could go through all the files on it. Browsing on an insecure wifi network could give you away to anyone within range. Depending on which country you live in, your ISP could be obliged to log your browsing history, where criminals will undoubtedly hack in and get access to it at some point.</p>
+
+<p>The threat to privacy is a bit more esoteric than losing your files or accounts, because it isn't obvious when it happens. When you lose your hard drive, you know about it. When someone steals money out of your bank account, you know about it. When Facebook gathers information about the websites you visit and sells it to other companies, you're left in the dark.</p>
+
+<p>To stop this, I'm going to teach you how to <em>keep that shit private</em>.</p>
+
+<h1>Back your shit up</h1>
+
+<p>Threats to your files (in order of likelihood):</p>
+
+<ul>
+<li>hard drive failure</li>
+<li>losing your laptop / phone</li>
+<li>malicious attacks</li>
+</ul><p>You can prevent all of them by keeping proper backups. It's pretty simple:</p>
+
+<ul>
+<li>Use automated backup software</li>
+<li>Keep a copy in different places, in case your house burns down</li>
+<li>Encrypt your backups so other people can't pry into them</li>
+</ul><p>Most of this is taken care of if you use decent backup software like <a href="http://www.crashplan.com/">Crashplan</a>. It keeps incremental backups of your files as you work. It updates itself automatically. You can backup to external hard drives. You can backup to Crashplan's servers "in the cloud" for $$$. You can backup to your friends computers over the net for free (as long as they run Crashplan). Your backups are encrypted so that only you can open them up and see the files. It's available for Linux, Mac and Windows and it's dead easy to setup. In a word it is brilliant, stop reading this and start downloading it.</p>
+
+<p>I haven't found a solution I'm overly fond of for automatically backing up smartphones / tablets. These devices are mostly used for browsing content, not producing it, so there's less important stuff to lose. The few exceptions are contact information and photos taken with the built in camera. I copy these to my computer periodically, where they are backed up by Crashplan.</p>
+
+<p>I'm not going to write an in depth guide to get Crashplan up and running, I'll let their tech support help you with that. The only thing I will add is that you should definitely secure your Crashplan encryption key with a private password, not just leave it at the default settings. With the default settings the friendly staff at Crashplan HQ could have a lot of fun digging through your backups to see those naked photos you took of yourself.</p>
+
+<p><img src="images/crashplan.png" alt="crashplan encryption key settings"></p>
+
+<p>Here's how to secure your backups with a private password:</p>
+
+<ol>
+<li>Open Crashplan's desktop application</li>
+<li>Go to <strong>Settings</strong>
+</li>
+<li>Go to the <strong>Security</strong> tab</li>
+<li>Under archive encryption, select <strong>448-bit (or 128-bit) encryption + password</strong>
+</li>
+<li>Enter a <em>different</em> password, make it long - 20 characters or more</li>
+<li>Do not forget this password</li>
+</ol><p>If you forget the password you won't be able to restore backups, defeating the whole point. Read the <em>Don't get hacked</em> section for help with managing your passwords.</p>
+
+<p>When you are done, perform a backup, and then make sure it has worked by pretending that your hard drive has died. Restore some of the files and check that they are ok. You don't want the first test of your backup system to be when you <em>really</em> need it, because if it doesn't work then, you're fucked.</p>
+
+<h1>Don't get hacked</h1>
+
+<p>Threats to your accounts:</p>
+
+<ul>
+<li>poor password habits</li>
+<li>falling for a con</li>
+<li>security vulnerabilities in software</li>
+</ul><h2>Poor password habits</h2>
+
+<p>Passwords are keys. Very useful, but their effectiveness depends heavily on how you use them. A short password is the equivalent of keeping the key underneath the doormat. Unlike keys, with passwords the criminals don't run the risk of being caught lifting the TV into their van and subsequently arrested. Instead they can break and enter all day from the comfort and safety of their keyboards. Don't leave it under the mat, use long passwords, 20 characters or more.</p>
+
+<p>You probably have a key for your front door, a key for your car, a key for work etc. If you used the same key for everything, your workmates would be able to steal your car. I'm torturing this metaphor to breaking point, but that is the risk you run if you use the same password everywhere. Read IT security news and every week you'll hear about the latest high profile website to have been compromised, with users' data (including passwords) being leaked. If you use the same password everywhere, when one account is compromised, the bad guys gain access to <em>all</em> of your other accounts too.</p>
+
+<p>Change your passwords frequently too, if a bad guy gets access to one, you might not know about it straight away. They could just be waiting for your bank balance to increase before it's worth draining.</p>
+
+<h3>Use a password manager</h3>
+
+<p>You probably don't keep your keys jangling around individually in the bottom of your bag. They are most likely all together on a <em>keyring</em>. Enter the password manager. All your passwords can be stored in a password manager, different ones for every account, all 20 characters or longer and you don't even have to remember them. It's still secure because the keyring itself is locked up inside a box. Only you have the one "master password" to open the box and fish out the other keys as needed. As a bonus, every password manager will include a password <em>generator</em>, so you don't even have to think up new passwords, they can be randomly generated for you.</p>
+
+<p><img src="images/keepass.png" alt="keepass screenshot"></p>
+
+<p>The password manager I recommend is <a href="http://keepass.info/download.html">KeePass</a>. Just make sure to download the 'Classic' edition and not the 'Professional' edition which is needlessly bloated with dotnet / mono. On windows this means grabbing 'KeePass 1', on Linux/Mac '<a href="https://www.keepassx.org">KeePassX</a>'. Downloading, installing and using KeePass is fairly straightforward so I won't spell it out for you.</p>
+
+<p><strong>Extremely important - make your "master password" long</strong>. The master password is a single point of failure, meaning that if someone else gets it, they get <em>all</em> your passwords. Don't use '12345'. Pick a sentence or a sequence of words, for example 'elevator principle mirth condiment existential vommit'. If your imagination fails you, pick random words <a href="http://world.std.com/%7Ereinhold/diceware.html">using dice and a dictionary</a>.</p>
+
+<p>If you frequently use different computers or devices, put your password database on a USB stick or upload it to some 'cloud storage' like DropBox. There's a portable version of KeePass that runs off of a USB stick, and versions for iOS, Android, and everything under the sun. If someone else gets their hands on your password database it doesn't matter, as long as you keep the master password safe.</p>
+
+<h2>Falling for a con</h2>
+
+<p>"Social engineering" is the computer security term for con artists plying their trade. They have a bag of tricks to throw at you in the hope that you'll hand over access to your online accounts or your computer. I'll go over some of the most common scams.</p>
+
+<h3>Fake tech support phone calls</h3>
+
+<p>Someone calls you on the telephone and tells you that there's a problem with your computer. They pretend to be helpful tech support people so you follow their instructions and wham, you've just given them remote access to your computer where they can do whatever they want. This includes installing keystroke loggers so they can record everything you type, including all your passwords.</p>
+
+<p>Avoiding this one is easy, just hang up the phone. Or for bonus points, string them along to waste their time. If you get a call you think is actually genuine, for example from your employer's tech support, hang up anyway, and then <em>you</em> call <em>them</em> on a number you already know and trust.</p>
+
+<h3>Spoofed websites and emails.</h3>
+
+<p>You get an email that looks like it came from your bank/paypal/etc. Inside the email is a link that appears to point to the website of the bank/paypal/etc. But it's really a counterfit email that links to a spoofed website which mimics the real one. You enter your username and password, thereby handing it over to the con artists.</p>
+
+<p>If you use an email provider with a decent spam filter, most likely you'll never even see these messages in the first place. Apart from that the easiest way to avoid this scam is to never click on links in emails, no matter how genuine they look. If you need to go to your bank/paypal/etc website, open up a browser and type in the address manually. Don't follow those links. You can also spot spoofed emails by their lack of anything that directly relates to you or your account, they will only have generic information that applies to everybody. You will probably get spoof email from paypal even if you don't have a paypal account - because the scammers don't know that.</p>
+
+<p>Email is one of the older ways to con you in to visiting a spoofed website, now there's facebook, twitter, you name it. Most people trust their "friends" and will click on the links that they post. But if your "friend's" account has been compromised, the spammers can post anything they like, including links to spoofed websites. So you need to know how to spot them. There are some fake website detectors built in to most browsers which can automatically protect you. They all rely on keeping a blacklist of known fakes though, so if a new one pops up there can be a delay before it gets added to the list. You still have to keep an eye out.</p>
+
+<p>Identifying a spoofed website requires a tiny bit of your attention. Trusted authorities give out "certificates" to verify that websites are who they say they are, and not someone else faking it. The easiest way to detect a spoof is the absence of any such certificate. Let's open Firefox and play spot the difference:</p>
+
+<p><img src="images/sitespoof.png" alt="spoofed website"></p>
+
+<p>This is ING's internet banking site. Just kidding! It's actually spoof of their site that I made. All I had to do was download the page, chuck it on a simple local webserver, and edit my hosts file to make my computer think <a href="http://www.ingdirect.com.au">www.ingdirect.com.au</a> is my own machine. Took 5 minutes. Here is the real site:</p>
+
+<p><img src="images/sitereal.png" alt="real website"></p>
+
+<p>Spot the difference? Look in the address bar - where the spoof site shows a globe, the real site shows a padlock. This indicates that the real website is using https, not plain http. The "s" stands for "secure". The bank's real site also supplies identity information, which you can see by clicking on the padlock or globe icon. let's take a look:</p>
+
+<p><img src="images/sitespoofidentity.png" alt="spoofed website"></p>
+
+<p><img src="images/siterealidentity.png" alt="spoofed website"></p>
+
+<p>Notice that the spoof "does not supply identity information" whereas the real site's certificate tells me what their web address is and who they are. It also mentions encryption, which we'll talk about later in the <em>Keep that shit private</em> chapter. Other browsers, including mobile browsers for iOS and Android, should have similar "padlock" features, though you might have to hunt for them. <a href="https://www.mozilla.org/mobile/">Firefox mobile</a> for Android works particularly well.</p>
+
+<h2>Security vulnerabilities in software</h2>
+
+<p>Software always has bugs. Bad people learn of these bugs, then exploit them to install keyloggers, backdoors or whatever they like on your machine. Most often the exploits will need some interaction on your part to work, so con artists will use social engineering tricks to deliver them. A <a href="https://twitter.com/meta_lab/status/258450874735677440">recent example</a> is a spreadsheet titled "List of Tibet political self-immolations.xls" doing the rounds, promising that "Rare footage shows extreme measures of Tibetan protesters". If you download and open the spreasheet, it will use security vulnerabilities in Microsoft Windows and Excel to install bad stuff.</p>
+
+<p>Exploits can also affect your router / modem, which  once compromised, can spy on all your browsing, and redirect your traffic to spoofed websites. Recently <a href="http://arstechnica.com/security/2012/10/dsl-modem-hack-infects-millions-with-malware/">4.5 million DSL models in Brazil were compromised</a>, with many internet banking accounts lost.</p>
+
+<p>Some rare and nasty security bugs don't need any action on your part to compromise your computer - just being on the network is enough. The best way to avoid being affected by these vulnerabilities is to keep your software up to date. Upgrade your browser. Download those security patches for your operating system. Don't download unauthorised copies of commercial software (e.g. torrents of Photoshop or Windows 7), you can't trust the source and often you will miss out on any security updates. Use free software and operating systems like <a href="http://www.ubuntu.com/">Ubuntu</a> instead.</p>
+
+<p>Ideally replace your router / modem's firmware with open source software like <a href="https://openwrt.org/">OpenWrt</a>, <a href="http://www.dd-wrt.com/site/index">DD-WRT</a> or <a href="http://www.polarcloud.com/tomato">Tomato</a>. Failing that, upgrade the standard firmware by visiting the manufacturers website. That might be a bit more work than you'd expect from a "guide for the lazy", unfortunately router / modem manufacturers have little incentive to fix their bugs and make updates easier for consumers to apply.</p>
+
+<p>Most mobile / tablet operating systems use automatic "over the air" security updates so you don't have to worry about it.  Of course you still have to keep an eye out for dodgy malicious apps to avoid installing them. Take a peek at the permissions granted to those apps before you download them. There's no reason for "The Simpsons" soundboard app to have internet access and the ability to send text messages.</p>
+
+<p>I don't recommend anti-virus software. It slows down your computer and won't protect you from the latest viruses anyway, because it takes them a little while to come up with a "vaccine". Anti-virus is the last line of defense, not the first. If you follow the rest of this guide, and avoid falling prey to con artists, you probably won't need it.</p>
+
+<h1>Keep that shit private</h1>
+
+<p>Keeping your shit private obviously depends on not getting hacked as described in the previous chapter. If your computer is compromised, the bad guys can see all your stuff. But there are some other threats to your privacy that don't involve getting direct access to your computer or accounts:</p>
+
+<ul>
+<li>Facebook, Google etc tracking</li>
+<li>IP address tracking</li>
+<li>Man the in the middle interceptions</li>
+<li>The files on your lost or stolen laptop / phone</li>
+</ul><h2>Facebook, Google etc tracking</h2>
+
+<p><a href="http://www.metafilter.com/95152/Userdriven-discontent#3256046">The adage</a> says "If you aren't paying for something, you're not the customer; <em>you're the product being sold</em>". Google, Facebook and the like are collecting data about your browsing habits, what you are interested in, what political viewpoints you may hold, and using it to sell ads, or worse, possibly selling the data to third parties.</p>
+
+<p>A great way of seeing this happening as you browse is to install the "Collusion" addon for Firefox. Open it up, and throughout your browsing session every time you are tracked it will draw links between the sites you visit and the advertising networks that track you. But of course this is a guide for the lazy so have a look at <a href="https://www.mozilla.org/en-US/collusion/demo/">their quick demo</a> instead, or here's a pic of what a standard browsing session looks like:</p>
+
+<p><a href="https://www.mozilla.org/en-US/collusion/demo/"><img src="images/collusion.png" alt="spoofed website"></a></p>
+
+<p>Enough doom and gloom, here's what you can do to stop it. I cheated and grabbed this mostly from the <a href="https://www.eff.org/deeplinks/2012/04/4-simple-changes-protect-your-privacy-online">Electronic Frontier Foundation</a>. Install the <a href="https://addons.mozilla.org/firefox/addon/adblock-plus/">Adblock Plus</a> browser extension. Open up it's configuration and add a filter subscription to "EasyPrivacy". You'll need to hit the "add a different subscription" hyperlink in there:</p>
+
+<p><img src="images/adblock-filter.png" alt="adblock filter configuration"></p>
+
+<p>Then scroll down to find "EasyPrivacy" and add it. Next open up your privacy settings, select "use custom settings for history", untick the "Accept third-party cookies" checkbox, and only keep cookies until "I close Firefox". That last one will mean that most websites you login to won't be able to "remember" who you are, so you'll need to login again whenver you close and reopen Firefox. That shouldn't be too much of a pain if you are using a password manager (see keepass mentioned previously) which can automatically type them out for you.</p>
+
+<p>Unfortunately similar cookie settings on mobile browsers are often difficult to find without fiddling. Adblock plus is available for Firefox mobile but I wasn't able to change the filter subscriptions after the initial setup. Hopefully this will improve in the future.</p>
+
+<p>One easy way of avoiding being tracked is simply to stop using sites that track you. Use <a href="https://duckduckgo.com/">Duck Duck Go</a> instead of Google for searching. Ditch Facebook.</p>
+
+<h2>IP address tracking</h2>
+
+<p>Your IP address is you. Every website you visit knows your IP address, which gives them an indirect way to find out who and where you are. Just visit a website like <a href="http://whatismyipaddress.com/">what's my ip address</a> to see what they can see - namely your IP address, the city you live in and the ISP you use. If your ISP co-operates with them through legal means they can find out exactly what your name is and where you live. Here's mine (with the part of the IP address redacted):</p>
+
+<p><img src="images/ip.png" alt="ip address"></p>
+
+<p>The way to stop IP address tracking is to bounce your signal off of another carrier. One of the best ways of doing this is using <a href="https://torproject.org">tor</a>. Download the tor browser bundle, open it up and run it. You'll see the tor control panel (vidalia) pop up and once it connects you to the tor network, a browser will pop up. Everything you do in that browser will run over the tor network, hiding your IP address. Here's a grab of what it looks like to the outside world:</p>
+
+<p><img src="images/iptor.png" alt="ip address through tor"></p>
+
+<p>Note that I do not live in Sweden! Tor actually bounces your signal through three separate relays.</p>
+
+<p><img src="images/tor.png" alt="tor relay diagram"> (image provided by the tor project)</p>
+
+<p>The first replay knows your IP address, but doesn't know what website you are looking at, because the traffic is encrypted. The second relay knows nothing, it just forwards the encrypted traffic from the first relay to the third. The third relay has to fetch the website content from the normal internet - so it knows what you are looking at, but it doesn't know who you are.</p>
+
+<p><em>This is the main caveat with using tor</em>; the exit relay could possibly snoop on your traffic. If you are just browsing content unrelated to you, this isn't a problem. Just beware that if you are posting identifying information about yourself, such as photos you have taken, the exit relay might look at them. You can get around this by encrypting the traffic end-to-end using https, which is covered in the "man in the middle section" up next.</p>
+
+<p>Tor is available for Android using <a href="https://guardianproject.info/apps/orbot/">Orbot</a> and <a href="https://guardianproject.info/apps/proxymob-firefox-add-on/">plugging it in to Firefox mobile</a>. Apple iOS users might want to look into <a href="http://v3.mike.tig.as/onionbrowser/">Onion Browser</a>.</p>
+
+<h2>Man in the middle interceptions</h2>
+
+<p>When you send mail in the post, you don't want it opened and read by the mailman. That's why you put it in an envelope rather than using postcards for everything. But for a lot of communication and browsing on the internet, anyone on the network between you and the destination can snoop on the traffic. This includes your ISP who may be legally required to log your browsing (depending on country), but it also extends to people on the same public wifi network as you.</p>
+
+<p>The "man in the middle" principle is the same for multiple uses of the internet, be it web browsing, sending email, or instant messaging (IM). The solution for each is conceptually the same; use end to end encryption. Encryption encodes the information before transit so that only the intended recipient can view it. To everyone else on the line it looks like gobbledegook. There's a different way of performing encryption for each use however:</p>
+
+<ul>
+<li>For web browsing, there's https</li>
+<li>For email, there's OpenPGP</li>
+<li>For instant messengers, there's Off The Record (OTR) messaging</li>
+</ul><h3>Web browsing and https</h3>
+
+<p>Https is already baked in to your web browser. You do need to keep an eye out in the address bar to make sure that you are using <em>https</em>, not the insecure <em>http</em>. Look for the padlock icon, here's a refresher:</p>
+
+<p><img src="images/sitespoofidentity.png" alt="spoofed website"></p>
+
+<p>No https. Bad.</p>
+
+<p><img src="images/siterealidentity.png" alt="spoofed website"></p>
+
+<p>Https. Good.</p>
+
+<p>I recommend installing the <a href="https://www.eff.org/https-everywhere">https everywhere</a> browser extension which will redirect you to the secure https version of <em>some</em> sites automatically. Ultimately though a few sites just don't provide support for https. Browsing insecurely is okay for the most part, but never submit any details to them by filling out forms with your personal details (credit card number, address, username, password etc) or by uploading files to them.</p>
+
+<h3>Email and OpenPGP</h3>
+
+<p>Using OpenPGP you can encrypt your messages so that only the recipient can read them. I won't go into details as i don't think it is "for the lazy", and it also depends on the other party using it as well. If you are interested, read the <a href="https://cryptoparty.org/wiki/CryptoPartyHandbook">cryptoparty handbook</a> and get started by installing <a href="http://gnupg.org/">GnuPG</a>, <a href="https://www.mozilla.org/thunderbird/">Thunderbird</a>, and <a href="http://www.enigmail.net/home/index.php">Enigmail</a>.</p>
+
+<h3>Instant messaging Off The Record (OTR)</h3>
+
+<p>Google talk, Skype, Facebook chat, XMPP, whatever chat network you use, odds are it's vulnerable to the man in the middle. With <a href="http://www.cypherpunks.ca/otr/">Off the record messaging</a> you can fix that. The easiest way of getting it is to use a third party chat client such as <a href="https://pidgin.im/">pidgin</a>. Install pidgin, pidgin's OTR plugin, and add your chat accounts. Open the tools-&gt;plugins dialog and enable the Off the Record plugin:</p>
+
+<p><img src="images/pidgin-otr.png" alt="pidgin otr plugin"></p>
+
+<p>Hit the "Configure Plugin" button and generate yourself a private key. Now when you start an IM conversation with someone, in the bottom right hand corner you'll see whether or not it is encrypted. It will say "Not private" in red or "private" in green. Click it to start/stop an encrypted chat session. It will only work if the other person has OTR as well, but you'll still be able to chat normally with people who don't.</p>
+
+<p><img src="images/pidgin-not-encrypted.png" alt="chatting without encryption"></p>
+
+<p><img src="images/pidgin-encrypted.png" alt="chatting with encryption"></p>
+
+<p>Google talk and Facebook chat work via XMPP behind the scenes so they work with both pidgin and OTR. Bad news for Skypers - you'll have to change networks. Mobile chatters should use <a href="https://play.google.com/store/apps/details?id=info.guardianproject.otr.app.im">Gibberbot</a> on Android or <a href="http://chrisballinger.info/apps/chatsecure/">ChatSecure</a> on iOS.</p>
+
+<h2>The files on your lost or stolen phone / laptop</h2>
+
+<p>People often keep important stuff they wouldn't want to show anyone on their phone or their laptop. Here are a few examples:</p>
+
+<ul>
+<li>Access to your email account (and via "I forgot my password", most of your other accounts)</li>
+<li>Photos and videos (both innocent and not so innocent)</li>
+<li>Passwords to other accounts (especially stored in the phone's browser)</li>
+<li>Sms and call records</li>
+<li>Browser history</li>
+<li>Financial records (generally on laptops, not phones)</li>
+</ul><h3>Phones and tablets</h3>
+
+<p>Putting a simple pin on the "unlock" screen might be good enough for a lot of people. If you lose your phone and don't get it back, odds are the scavenger who found it isn't interested in your data, just in the shiny new phone they found. They might be curious to have a snoop, but a simple pin/unlock screen will be enough deterrent for them to factory reset it and not bother with the rest. For that reason I recommend everybody use one.</p>
+
+<p>Needless to say, if you lose your phone, call your telco and block the account. Also change all passwords used on the device such as email, websites etc.</p>
+
+<p>Those wanting to go a step further need to use encryption to make sure someone can't simply connect the phone to a pc and read all the data off the internal storage and sd card. Android users will need Android version 3.0 (Honeycomb) or greater to use encryption. Apple iOS users with an iPhone 3GS or any newer device will also be able to use encryption. In both cases you need to set up a passcode or screen lock pin. Make it a long one (see the <em>poor password habits</em> section). For iOS, you're done, just make sure the text "data protection is enabled" is at the bottom of the screen. See the <a href="https://support.apple.com/kb/HT4175">apple support page</a> for further info.</p>
+
+<p>On android the process will take a little longer. Make sure the phone is plugged in to the charger and that you don't have to take it anywhere for an hour or so. First set up a lock screen pin or password, then go to your security settings -&gt; encryption -&gt; encrypt phone. Then just follow the prompts. Make sure to encrypt both the internal storage and all files on the SD card. See the <a href="https://support.google.com/android/bin/answer.py?hl=en&amp;answer=1663755">google support page</a> for further info.</p>
+
+<h3>Laptops</h3>
+
+<p>To stop people from going through the files on your lost or stolen laptop, you need to encrypt them. Most Linux distributions will give you the option to encrypt the home directory (which contains all your personal files) as part of the install. Just choose that and you're done. If you want to enable encryption on a system you've already got installed and running, here's how:</p>
+
+<ol>
+<li>Install ecryptfs (the <code>ecryptfs-utils</code> package) using the package manager of your choice (Ubuntu software center, apt-get, Synaptic etc).</li>
+<li>Make sure the computer is not running on batteries and that you can leave it running for an hour or so.</li>
+<li>Open a command line terminal (don't be scared) and type <code>sudo ecryptfs-setup-private</code>.</li>
+<li>Follow the prompts and instructions.</li>
+<li>Do <code>sudo ecryptfs-setup-swap</code> the same way.</li>
+</ol><p>Once you've done that you're good to go, logging in normally will give you access to the encrypted data and it will all be seamless. Just make sure to use a good password and to follow the advice the ecryptfs prompt gave you when it told you to backup your passphrase.</p>
+
+<p>On Windows and OSX, things are a bit more fiddly, you're probably better off using <a href="https://www.truecrypt.org/">Truecrypt</a> to create a small encrypted container and storing your most private files in there. It's just a pain because every time you want to access them you are going to have to open truecrypt, mount the container and enter the passphrase for it. Also it won't protect stuff like your browser settings and history, or anything else that you can't just move and shove into the encrypted folder.</p>
+
+<p>Here's how to create the Truecrypt container in the first place:</p>
+
+<ol>
+<li>Download and install Truecrypt from their website.</li>
+<li>Run the Truecrypt application and click "create volume"</li>
+<li>Follow the prompts, using the defaults.</li>
+</ol><p>Then when you want to access the encrypted stuff:</p>
+
+<ol>
+<li>Run the Truecrypt application and click "select file".</li>
+<li>Choose the encrypted container you created earlier.</li>
+<li>Click "mount"</li>
+<li>Enter the passhprase for it.</li>
+</ol><p>Truecrypt can also be used on Linux if desired, and is a good choice for encrypting files on usb thumbsticks that you might lose. Just rememver to make the password long, and don't forget it (just use keepass already).</p>
+
+<p>Finally, people who aren't lazy should look into full disk encryption. And if you've read this far, maybe you aren't so lazy after all.</p>
+
+<h1>About this document</h1>
+
+<p>This document is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</p>
+
+<p>Last updated May 2013</p>
+
+<p>Authors:</p>
+
+<ul>
+<li><a href="https://danielkinsman.wordpress.com/">Daniel Kinsman</a></li>
+</ul><p>Contact / Questions:</p>
+
+<ul>
+<li>
+<a href="mailto:danielkinsman@gmail.com">danielkinsman@gmail.com</a> (<a href="http://sks.spodhuis.org/pks/lookup?op=vindex&amp;search=0x709C423C750B8627">gpg key</a>)</li>
+</ul>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Security-for-the-lazy maintained by <a href="https://github.com/DanielKinsman">DanielKinsman</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
