@@ -234,10 +234,30 @@ Hit the "Configure Plugin" button and generate yourself a private key. Now when 
 
 Google talk and Facebook chat work via XMPP behind the scenes so they work with both pidgin and OTR. Bad news for Skypers - you'll have to change networks. Mobile chatters should use [Gibberbot](https://play.google.com/store/apps/details?id=info.guardianproject.otr.app.im) on Android or [ChatSecure](http://chrisballinger.info/apps/chatsecure/) on iOS.
 
-The files on your lost or stolen laptop / phone
+The files on your lost or stolen phone / laptop
 -----------------------------------------------
 
-TODO
+People often keep important stuff they wouldn't want to show anyone on their phone or their laptop. Here are a few examples:
+
+* Access to your email account (and via "I forgot my password", most of your other accounts)
+* Photos and videos (both innocent and not so innocent)
+* Passwords to other accounts (especially stored in the phone's browser)
+* Sms and call records
+
+### Phones and tablets
+
+Putting a simple pin on the "unlock" screen might be good enough for a lot of people. If you lose your phone and don't get it back, odds are the scavenger who found it isn't interested in your data, just in the shiny new phone they found. They might be curious to have a snoop, but a simple pin/unlock screen will be enough deterrent for them to factory reset it and not bother with the rest. For that reason I recommend everybody use one.
+
+Needless to say, if you lose your phone, call your telco and block the account. Also change all passwords used on the device such as email, websites etc.
+
+Those wanting to go a step further need to use encryption to make sure someone can't simply connect the phone to a pc and read all the data off the internal storage and sd card. Android users will need android version 3.0 (Honeycomb) or greater to use encryption. Apple iOS users with iPhone 3GS or any newer device will also be able to use encryption. In both cases you need to set up a passcode or screen lock pin. Make it a long one (see the *poor password habits* section). For iOS, that's it, just make sure the text "Data protection is enabled" is at the bottom of the screen. See the [apple support page](https://support.apple.com/kb/HT4175) for further info.
+
+On android the process will take a little longer. Make sure the phone is plugged in to the charger and that you don't have to take it anywhere for an hour or so. First set up a lock screen pin or password, then go to your security settings -> encryption -> encrypt phone. Then just follow the prompts. Make sure to encrypt both the internal storage and all files on the SD card. The the [google support page](https://support.google.com/android/bin/answer.py?hl=en&answer=1663755) for further info.
+
+### Laptops
+
+Encryption is the solution to protect data on your lost laptops as well. Depending on the operating system you use, there are different approaches.
+
 
 About this document
 ===================
