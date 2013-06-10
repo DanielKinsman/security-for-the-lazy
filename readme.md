@@ -44,26 +44,11 @@ You can prevent all of them by keeping proper backups. It's pretty simple:
 * Keep a copy in different places, in case your house burns down
 * Encrypt your backups so other people can't pry into them
 
-Most of this is taken care of if you use decent backup software like [Crashplan](http://www.crashplan.com/). It keeps incremental backups of your files as you work. It updates itself automatically. You can backup to external hard drives. You can backup to Crashplan's servers "in the cloud" for $$$. You can backup to your friends computers over the net for free (as long as they run Crashplan). Your backups are encrypted so that only you can open them up and see the files. It's available for Linux, Mac and Windows and it's dead easy to setup. In a word it is brilliant, stop reading this and start downloading it.
+Most of this is taken care of if you use decent backup software. **Unfortunately I can no longer recommend Crashplan.** It's not their fault, but recently the [FBI has been pushing for mandatory backdoors in commercial software](https://www.schneier.com/blog/archives/2013/06/the_problems_wi_3.html). As a consequence I can only recommend using open source software, I'll have to do some digging and report back when I've found a good alternative (sorry [Stallman](https://en.wikipedia.org/wiki/Richard_Stallman), I should have listened to you).
 
-I haven't found a solution I'm overly fond of for automatically backing up smartphones / tablets. These devices are mostly used for browsing content, not producing it, so there's less important stuff to lose. The few exceptions are contact information and photos taken with the built in camera. I copy these to my computer periodically, where they are backed up by Crashplan.
+I haven't found a solution I'm overly fond of for automatically backing up smartphones / tablets. These devices are mostly used for browsing content, not producing it, so there's less important stuff to lose. The few exceptions are contact information and photos taken with the built in camera. I copy these to my computer periodically, where they are backed up by my regular backup software.
 
-I'm not going to write an in depth guide to get Crashplan up and running, I'll let their tech support help you with that. The only thing I will add is that you should definitely secure your Crashplan encryption key with a private password, not just leave it at the default settings. With the default settings the friendly staff at Crashplan HQ could have a lot of fun digging through your backups to see those naked photos you took of yourself.
-
-![crashplan encryption key settings](images/crashplan.png)
-
-Here's how to secure your backups with a private password:
-
-1. Open Crashplan's desktop application
-2. Go to **Settings**
-3. Go to the **Security** tab
-4. Under archive encryption, select **448-bit (or 128-bit) encryption + password**
-5. Enter a *different* password, make it long - 20 characters or more
-6. Do not forget this password
-
-If you forget the password you won't be able to restore backups, defeating the whole point. Read the *Don't get hacked* section for help with managing your passwords.
-
-When you are done, perform a backup, and then make sure it has worked by pretending that your hard drive has died. Restore some of the files and check that they are ok. You don't want the first test of your backup system to be when you *really* need it, because if it doesn't work then, you're fucked.
+When you are done setting up your backup software, perform a backup, and then make sure it has worked by pretending that your hard drive has died. Restore some of the files and check that they are ok. You don't want the first test of your backup system to be when you *really* need it, because if it doesn't work then, you're fucked.
 
 Don't get hacked
 ================
