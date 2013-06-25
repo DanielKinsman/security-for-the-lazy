@@ -112,6 +112,9 @@ Spot the difference? Look in the address bar - where the spoof site shows a glob
 
 Notice that the spoof "does not supply identity information" whereas the real site's certificate tells me what their web address is and who they are. It also mentions encryption, which we'll talk about later in the *Keep that shit private* chapter. Other browsers, including mobile browsers for iOS and Android, should have similar "padlock" features, though you might have to hunt for them. [Firefox mobile](https://www.mozilla.org/mobile/) for Android works particularly well.
 
+### Spearphishing
+After a while you might get used to the spotting the regular spams and cons. It's easy to tell them apart by their genericness. Spearphishing is different - it is directly targeted at you. The scammer will do their research first, by searching for you online and reading all the public information they can find - reading your blog, twitter, public facebook posts etc. Then they will craft an email just for you - in my case it might be "I read your security for the lazy guide, can you help me out with a question?" Inside the email somewhere will be a link to a malicious website, or an attachment with a trojan. Always be wary of unsollicited email.
+
 Security vulnerabilities in software
 ------------------------------------
 
@@ -287,7 +290,7 @@ About this document
 ===================
 This document is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.
 
-Last updated May 2013
+Last updated June 2013
 
 Authors:
 
