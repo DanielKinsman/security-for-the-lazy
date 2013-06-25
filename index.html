@@ -112,7 +112,7 @@
 
 <p><img src="images/keepass.png" alt="keepass screenshot" title="" /></p>
 
-<p>The password manager I recommend is <a href="http://keepass.info/download.html">KeePass</a>. Just make sure to download the 'Classic' edition and not the 'Professional' edition which is needlessly bloated with dotnet / mono. On windows this means grabbing 'KeePass 1', on Linux/Mac '<a href="https://www.keepassx.org">KeePassX</a>'. Downloading, installing and using KeePass is fairly straightforward so I won't spell it out for you.</p>
+<p>The password manager I recommend is <a href="https://www.keepassx.org/">KeePassX</a>. Downloading, installing and using KeePassX is fairly straightforward so I won't spell it out for you.</p>
 
 <p><strong>Extremely important - make your "master password" long</strong>. The master password is a single point of failure, meaning that if someone else gets it, they get <em>all</em> your passwords. Don't use '12345'. Pick a sentence or a sequence of words, for example 'elevator principle mirth condiment existential vommit'. If your imagination fails you, pick random words <a href="http://world.std.com/~reinhold/diceware.html">using dice and a dictionary</a>.</p>
 
@@ -151,6 +151,10 @@
 <p><img src="images/siterealidentity.png" alt="spoofed website" title="" /></p>
 
 <p>Notice that the spoof "does not supply identity information" whereas the real site's certificate tells me what their web address is and who they are. It also mentions encryption, which we'll talk about later in the <em>Keep that shit private</em> chapter. Other browsers, including mobile browsers for iOS and Android, should have similar "padlock" features, though you might have to hunt for them. <a href="https://www.mozilla.org/mobile/">Firefox mobile</a> for Android works particularly well.</p>
+
+<h3>Spearphishing</h3>
+
+<p>After a while you might get used to the spotting the regular spams and cons. It's easy to tell them apart by their genericness. Spearphishing is different - it is directly targeted at you. The scammer will do their research first, by searching for you online and reading all the public information they can find - reading your blog, twitter, public facebook posts etc. Then they will craft an email just for you - in my case it might be "I read your security for the lazy guide, can you help me out with a question?" Inside the email somewhere will be a link to a malicious website, or an attachment with a trojan. Always be wary of unsollicited email.</p>
 
 <h2>Security vulnerabilities in software</h2>
 
@@ -317,13 +321,25 @@
 
 <p>Truecrypt can also be used on Linux if desired, and is a good choice for encrypting files on usb thumbsticks that you might lose. Just rememver to make the password long, and don't forget it (just use keepass already).</p>
 
-<p>Finally, people who aren't lazy should look into full disk encryption. And if you've read this far, maybe you aren't so lazy after all.</p>
+<h1>Extra credit</h1>
+
+<p>If you've read this far, maybe you aren't so lazy after all. Here's some more ways to protect yourself:</p>
+
+<ul>
+<li>switch to an open source operating system (I recommend <a href="http://www.linuxmint.com/">Linux mint</a>)</li>
+<li>email encryption using thunderbird, enigmail and gpg</li>
+<li>full disk encryption using truecrypt (windows) dm-crypt (Linux)</li>
+<li>backup using <a href="http://www.amanda.org/">amanda</a> or the like</li>
+<li>boot from a <a href="https://tails.boum.org/">tails</a> livecd/usb for super sensitive stuff, and when travelling</li>
+<li>use textsecure and redphone from <a href="https://whispersystems.org/">Whisper Systems</a> to encrypt your sms and calls on Android</li>
+<li><a href="http://voices.yahoo.com/how-tin-foil-hat-dog-579036.html">make your dog a tinfoil hat</a> to protect it from <a href="http://www.wired.com/threatlevel/2012/08/brainwave-hacking/">PIN stealing EEG machines</a></li>
+</ul>
 
 <h1>About this document</h1>
 
 <p>This document is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.</p>
 
-<p>Last updated May 2013</p>
+<p>Last updated June 2013</p>
 
 <p>Authors:</p>
 
@@ -336,6 +352,7 @@
 <ul>
 <li><a href="mailto:danielkinsman@riseup.net">danielkinsman@riseup.net</a> (<a href="http://sks.spodhuis.org/pks/lookup?op=vindex&amp;search=0x709C423C750B8627">gpg key</a>)</li>
 </ul>
+
 
       </section>
     </div>
