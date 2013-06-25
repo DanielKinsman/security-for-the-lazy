@@ -73,7 +73,7 @@ You probably don't keep your keys jangling around individually in the bottom of 
 
 ![keepass screenshot](images/keepass.png)
 
-The password manager I recommend is [KeePass](http://keepass.info/download.html). Just make sure to download the 'Classic' edition and not the 'Professional' edition which is needlessly bloated with dotnet / mono. On windows this means grabbing 'KeePass 1', on Linux/Mac '[KeePassX](https://www.keepassx.org)'. Downloading, installing and using KeePass is fairly straightforward so I won't spell it out for you.
+The password manager I recommend is [KeePassX](https://www.keepassx.org/). Downloading, installing and using KeePassX is fairly straightforward so I won't spell it out for you.
 
 **Extremely important - make your "master password" long**. The master password is a single point of failure, meaning that if someone else gets it, they get *all* your passwords. Don't use '12345'. Pick a sentence or a sequence of words, for example 'elevator principle mirth condiment existential vommit'. If your imagination fails you, pick random words [using dice and a dictionary](http://world.std.com/~reinhold/diceware.html).
 
@@ -111,6 +111,9 @@ Spot the difference? Look in the address bar - where the spoof site shows a glob
 ![spoofed website](images/siterealidentity.png)
 
 Notice that the spoof "does not supply identity information" whereas the real site's certificate tells me what their web address is and who they are. It also mentions encryption, which we'll talk about later in the *Keep that shit private* chapter. Other browsers, including mobile browsers for iOS and Android, should have similar "padlock" features, though you might have to hunt for them. [Firefox mobile](https://www.mozilla.org/mobile/) for Android works particularly well.
+
+### Spearphishing
+After a while you might get used to the spotting the regular spams and cons. It's easy to tell them apart by their genericness. Spearphishing is different - it is directly targeted at you. The scammer will do their research first, by searching for you online and reading all the public information they can find - reading your blog, twitter, public facebook posts etc. Then they will craft an email just for you - in my case it might be "I read your security for the lazy guide, can you help me out with a question?" Inside the email somewhere will be a link to a malicious website, or an attachment with a trojan. Always be wary of unsollicited email.
 
 Security vulnerabilities in software
 ------------------------------------
@@ -270,13 +273,24 @@ Then when you want to access the encrypted stuff:
 
 Truecrypt can also be used on Linux if desired, and is a good choice for encrypting files on usb thumbsticks that you might lose. Just rememver to make the password long, and don't forget it (just use keepass already).
 
-Finally, people who aren't lazy should look into full disk encryption. And if you've read this far, maybe you aren't so lazy after all.
+Extra credit
+============
+
+If you've read this far, maybe you aren't so lazy after all. Here's some more ways to protect yourself:
+
+* switch to an open source operating system (I recommend [Linux mint](http://www.linuxmint.com/))
+* email encryption using thunderbird, enigmail and gpg
+* full disk encryption using truecrypt (windows) dm-crypt (Linux)
+* backup using [amanda](http://www.amanda.org/) or the like
+* boot from a [tails](https://tails.boum.org/) livecd/usb for super sensitive stuff, and when travelling
+* use textsecure and redphone from [Whisper Systems](https://whispersystems.org/) to encrypt your sms and calls on Android
+* [make your dog a tinfoil hat](http://voices.yahoo.com/how-tin-foil-hat-dog-579036.html) to protect it from [PIN stealing EEG machines](http://www.wired.com/threatlevel/2012/08/brainwave-hacking/)
 
 About this document
 ===================
 This document is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.
 
-Last updated May 2013
+Last updated June 2013
 
 Authors:
 
@@ -285,3 +299,4 @@ Authors:
 Contact / Questions:
 
 * [danielkinsman@riseup.net](mailto:danielkinsman@riseup.net) ([gpg key](http://sks.spodhuis.org/pks/lookup?op=vindex&search=0x709C423C750B8627))
+
