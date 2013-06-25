@@ -73,7 +73,7 @@ You probably don't keep your keys jangling around individually in the bottom of 
 
 ![keepass screenshot](images/keepass.png)
 
-The password manager I recommend is [KeePass](http://keepass.info/download.html). Just make sure to download the 'Classic' edition and not the 'Professional' edition which is needlessly bloated with dotnet / mono. On windows this means grabbing 'KeePass 1', on Linux/Mac '[KeePassX](https://www.keepassx.org)'. Downloading, installing and using KeePass is fairly straightforward so I won't spell it out for you.
+The password manager I recommend is [KeePassX](https://www.keepassx.org/). Downloading, installing and using KeePassX is fairly straightforward so I won't spell it out for you.
 
 **Extremely important - make your "master password" long**. The master password is a single point of failure, meaning that if someone else gets it, they get *all* your passwords. Don't use '12345'. Pick a sentence or a sequence of words, for example 'elevator principle mirth condiment existential vommit'. If your imagination fails you, pick random words [using dice and a dictionary](http://world.std.com/~reinhold/diceware.html).
 
@@ -270,7 +270,18 @@ Then when you want to access the encrypted stuff:
 
 Truecrypt can also be used on Linux if desired, and is a good choice for encrypting files on usb thumbsticks that you might lose. Just rememver to make the password long, and don't forget it (just use keepass already).
 
-Finally, people who aren't lazy should look into full disk encryption. And if you've read this far, maybe you aren't so lazy after all.
+
+
+Extra credit
+============
+
+If you've read this far, maybe you aren't so lazy after all. Here's some more ways to protect yourself:
+
+* switch to an open source operating system (I recommend [Linux mint](http://www.linuxmint.com/))
+* email encryption using thunderbird, enigmail and gpg
+* full disk encryption using truecrypt (windows) dm-crypt (Linux)
+* backup using [amanda](http://www.amanda.org/) or the like
+* boot from a [tails](https://tails.boum.org/) livecd/usb for super sensitive stuff, and when travelling
 
 About this document
 ===================
