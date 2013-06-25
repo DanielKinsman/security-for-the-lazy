@@ -273,8 +273,6 @@ Then when you want to access the encrypted stuff:
 
 Truecrypt can also be used on Linux if desired, and is a good choice for encrypting files on usb thumbsticks that you might lose. Just rememver to make the password long, and don't forget it (just use keepass already).
 
-
-
 Extra credit
 ============
 
@@ -285,6 +283,8 @@ If you've read this far, maybe you aren't so lazy after all. Here's some more wa
 * full disk encryption using truecrypt (windows) dm-crypt (Linux)
 * backup using [amanda](http://www.amanda.org/) or the like
 * boot from a [tails](https://tails.boum.org/) livecd/usb for super sensitive stuff, and when travelling
+* use textsecure and redphone from [Whisper Systems](https://whispersystems.org/) to encrypt your sms and calls on Android
+* [make your dog a tinfoil hat](http://voices.yahoo.com/how-tin-foil-hat-dog-579036.html) to protect it from [PIN stealing EEG machines](http://www.wired.com/threatlevel/2012/08/brainwave-hacking/)
 
 About this document
 ===================
@@ -299,3 +299,4 @@ Authors:
 Contact / Questions:
 
 * [danielkinsman@riseup.net](mailto:danielkinsman@riseup.net) ([gpg key](http://sks.spodhuis.org/pks/lookup?op=vindex&search=0x709C423C750B8627))
+
