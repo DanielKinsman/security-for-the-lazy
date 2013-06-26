@@ -157,6 +157,8 @@ Then scroll down to find "EasyPrivacy" and add it. Next open up your privacy set
 
 Unfortunately similar cookie settings on mobile browsers are often difficult to find without fiddling. Adblock plus is available for Firefox mobile but I wasn't able to change the filter subscriptions after the initial setup. Hopefully this will improve in the future.
 
+Install the [disconnect](https://disconnect.me/) plugin for your browser. It works like Collusion above, but instead of just showing you the tracking, it actively blocks it.
+
 One easy way of avoiding being tracked is simply to stop using sites that track you. Use [Duck Duck Go](https://duckduckgo.com/) instead of Google for searching. Ditch Facebook.
 
 IP address tracking
