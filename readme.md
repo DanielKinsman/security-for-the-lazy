@@ -1,6 +1,6 @@
 Computer security for the lazy
 ==============================
-This is a draft still being written, so you might want to wait until it's completed and reviewed by a third party to make sure I'm not giving any bad advice. It's a guide for the *lazy*. If you are living under an opressive government (like Syria or Iran), or if you are a whistleblower, activist, or a journalist wanting to protect your sources, you can't afford to be slack.
+This is a draft still being written, so you might want to wait until it's completed and reviewed by a third party to make sure I'm not giving any bad advice. It's a guide for the *lazy*. If you are living under an oppressive government (like Syria or Iran), or if you are a whistleblower, activist, or a journalist wanting to protect your sources, you can't afford to be slack.
 
 For the rest of us lazy bastards, here's the shit you need to worry about (in order of importance):
 
@@ -75,9 +75,9 @@ You probably don't keep your keys jangling around individually in the bottom of 
 
 The password manager I recommend is [KeePassX](https://www.keepassx.org/). Downloading, installing and using KeePassX is fairly straightforward so I won't spell it out for you.
 
-**Extremely important - make your "master password" long**. The master password is a single point of failure, meaning that if someone else gets it, they get *all* your passwords. Don't use '12345'. Pick a sentence or a sequence of words, for example 'elevator principle mirth condiment existential vommit'. If your imagination fails you, pick random words [using dice and a dictionary](http://world.std.com/~reinhold/diceware.html).
+**Extremely important - make your "master password" long**. The master password is a single point of failure, meaning that if someone else gets it, they get *all* your passwords. Don't use '12345'. Pick a sentence or a sequence of words, for example 'elevator principle mirth condiment existential vomit'. If your imagination fails you, pick random words [using dice and a dictionary](http://world.std.com/~reinhold/diceware.html).
 
-If you frequently use different computers or devices, put your password database on a USB stick or upload it to some 'cloud storage' like DropBox. There's a portable version of KeePass that runs off of a USB stick, and versions for iOS, Android, and everything under the sun. If someone else gets their hands on your password database it doesn't matter, as long as you keep the master password safe.
+If you frequently use different computers or devices, put your password database on a USB stick or upload it to some 'cloud storage' like DropBox. KeePassX will run off of a USB stick, and there are versions for iOS, Android, and everything under the sun. If someone else gets their hands on your password database it doesn't matter, as long as you keep the master password safe.
 
 Falling for a con
 -----------------
@@ -90,7 +90,7 @@ Someone calls you on the telephone and tells you that there's a problem with you
 Avoiding this one is easy, just hang up the phone. Or for bonus points, string them along to waste their time. If you get a call you think is actually genuine, for example from your employer's tech support, hang up anyway, and then *you* call *them* on a number you already know and trust.
 
 ### Spoofed websites and emails.
-You get an email that looks like it came from your bank/paypal/etc. Inside the email is a link that appears to point to the website of the bank/paypal/etc. But it's really a counterfit email that links to a spoofed website which mimics the real one. You enter your username and password, thereby handing it over to the con artists.
+You get an email that looks like it came from your bank/paypal/etc. Inside the email is a link that appears to point to the website of the bank/paypal/etc. But it's really a counterfeit email that links to a spoofed website which mimics the real one. You enter your username and password, thereby handing it over to the con artists.
 
 If you use an email provider with a decent spam filter, most likely you'll never even see these messages in the first place. Apart from that the easiest way to avoid this scam is to never click on links in emails, no matter how genuine they look. If you need to go to your bank/paypal/etc website, open up a browser and type in the address manually. Don't follow those links. You can also spot spoofed emails by their lack of anything that directly relates to you or your account, they will only have generic information that applies to everybody. You will probably get spoof email from paypal even if you don't have a paypal account - because the scammers don't know that.
 
@@ -113,12 +113,12 @@ Spot the difference? Look in the address bar - where the spoof site shows a glob
 Notice that the spoof "does not supply identity information" whereas the real site's certificate tells me what their web address is and who they are. It also mentions encryption, which we'll talk about later in the *Keep that shit private* chapter. Other browsers, including mobile browsers for iOS and Android, should have similar "padlock" features, though you might have to hunt for them. [Firefox mobile](https://www.mozilla.org/mobile/) for Android works particularly well.
 
 ### Spearphishing
-After a while you might get used to the spotting the regular spams and cons. It's easy to tell them apart by their genericness. Spearphishing is different - it is directly targeted at you. The scammer will do their research first, by searching for you online and reading all the public information they can find - reading your blog, twitter, public facebook posts etc. Then they will craft an email just for you - in my case it might be "I read your security for the lazy guide, can you help me out with a question?" Inside the email somewhere will be a link to a malicious website, or an attachment with a trojan. Always be wary of unsollicited email.
+After a while you might get used to the spotting the regular spams and cons. It's easy to tell them apart by their genericness. Spearphishing is different - it is directly targeted at you. The scammer will do their research first, by searching for you online and reading all the public information they can find - reading your blog, twitter, public facebook posts etc. Then they will craft an email just for you - in my case it might be "I read your security for the lazy guide, can you help me out with a question?" Inside the email somewhere will be a link to a malicious website, or an attachment with a trojan. Always be wary of unsolicited email.
 
 Security vulnerabilities in software
 ------------------------------------
 
-Software always has bugs. Bad people learn of these bugs, then exploit them to install keyloggers, backdoors or whatever they like on your machine. Most often the exploits will need some interaction on your part to work, so con artists will use social engineering tricks to deliver them. A [recent example](https://twitter.com/meta_lab/status/258450874735677440) is a spreadsheet titled "List of Tibet political self-immolations.xls" doing the rounds, promising that "Rare footage shows extreme measures of Tibetan protesters". If you download and open the spreasheet, it will use security vulnerabilities in Microsoft Windows and Excel to install bad stuff.
+Software always has bugs. Bad people learn of these bugs, then exploit them to install keyloggers, backdoors or whatever they like on your machine. Most often the exploits will need some interaction on your part to work, so con artists will use social engineering tricks to deliver them. A [recent example](https://twitter.com/meta_lab/status/258450874735677440) is a spreadsheet titled "List of Tibet political self-immolations.xls" doing the rounds, promising that "Rare footage shows extreme measures of Tibetan protesters". If you download and open the spreadsheet, it will use security vulnerabilities in Microsoft Windows and Excel to install bad stuff.
 
 Exploits can also affect your router / modem, which  once compromised, can spy on all your browsing, and redirect your traffic to spoofed websites. Recently [4.5 million DSL models in Brazil were compromised](http://arstechnica.com/security/2012/10/dsl-modem-hack-infects-millions-with-malware/), with many internet banking accounts lost.
 
@@ -128,7 +128,7 @@ Ideally replace your router / modem's firmware with open source software like [O
 
 Most mobile / tablet operating systems use automatic "over the air" security updates so you don't have to worry about it.  Of course you still have to keep an eye out for dodgy malicious apps to avoid installing them. Take a peek at the permissions granted to those apps before you download them. There's no reason for "The Simpsons" soundboard app to have internet access and the ability to send text messages.
 
-I don't recommend anti-virus software. It slows down your computer and won't protect you from the latest viruses anyway, because it takes them a little while to come up with a "vaccine". Anti-virus is the last line of defense, not the first. If you follow the rest of this guide, and avoid falling prey to con artists, you probably won't need it.
+I don't recommend anti-virus software. It slows down your computer and won't protect you from the latest viruses anyway, because it takes them a little while to come up with a "vaccine". Anti-virus is the last line of defence, not the first. If you follow the rest of this guide, and avoid falling prey to con artists, you probably won't need it.
 
 Keep that shit private
 ======================
@@ -153,9 +153,11 @@ Enough doom and gloom, here's what you can do to stop it. I cheated and grabbed 
 
 ![adblock filter configuration](images/adblock-filter.png)
 
-Then scroll down to find "EasyPrivacy" and add it. Next open up your privacy settings, select "use custom settings for history", untick the "Accept third-party cookies" checkbox, and only keep cookies until "I close Firefox". That last one will mean that most websites you login to won't be able to "remember" who you are, so you'll need to login again whenver you close and reopen Firefox. That shouldn't be too much of a pain if you are using a password manager (see keepass mentioned previously) which can automatically type them out for you.
+Then scroll down to find "EasyPrivacy" and add it. Next open up your privacy settings, select "use custom settings for history", untick the "Accept third-party cookies" checkbox, and only keep cookies until "I close Firefox". That last one will mean that most websites you login to won't be able to "remember" who you are, so you'll need to login again whenever you close and reopen Firefox. That shouldn't be too much of a pain if you are using a password manager (see keepassx mentioned previously) which can automatically type them out for you.
 
 Unfortunately similar cookie settings on mobile browsers are often difficult to find without fiddling. Adblock plus is available for Firefox mobile but I wasn't able to change the filter subscriptions after the initial setup. Hopefully this will improve in the future.
+
+Install the [disconnect](https://disconnect.me/) plugin for your browser. It works like Collusion above, but instead of just showing you the tracking, it actively blocks it.
 
 One easy way of avoiding being tracked is simply to stop using sites that track you. Use [Duck Duck Go](https://duckduckgo.com/) instead of Google for searching. Ditch Facebook.
 
@@ -248,7 +250,7 @@ On android the process will take a little longer. Make sure the phone is plugged
 
 To stop people from going through the files on your lost or stolen laptop, you need to encrypt them. Most Linux distributions will give you the option to encrypt the home directory (which contains all your personal files) as part of the install. Just choose that and you're done. If you want to enable encryption on a system you've already got installed and running, here's how:
 
-1. Install ecryptfs (the `ecryptfs-utils` package) using the package manager of your choice (Ubuntu software center, apt-get, Synaptic etc).
+1. Install ecryptfs (the `ecryptfs-utils` package) using the package manager of your choice (Ubuntu software centre, apt-get, Synaptic etc).
 2. Make sure the computer is not running on batteries and that you can leave it running for an hour or so.
 2. Open a command line terminal (don't be scared) and type `sudo ecryptfs-setup-private`.
 3. Follow the prompts and instructions.
@@ -269,9 +271,9 @@ Then when you want to access the encrypted stuff:
 1. Run the Truecrypt application and click "select file".
 2. Choose the encrypted container you created earlier.
 3. Click "mount"
-4. Enter the passhprase for it.
+4. Enter the passphrase for it.
 
-Truecrypt can also be used on Linux if desired, and is a good choice for encrypting files on usb thumbsticks that you might lose. Just rememver to make the password long, and don't forget it (just use keepass already).
+Truecrypt can also be used on Linux if desired, and is a good choice for encrypting files on usb thumbsticks that you might lose. Just remember to make the password long, and don't forget it (just use keepassx already).
 
 Extra credit
 ============
