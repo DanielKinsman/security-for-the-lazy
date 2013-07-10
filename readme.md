@@ -206,9 +206,13 @@ Https. Good.
 
 I recommend installing the [https everywhere](https://www.eff.org/https-everywhere) browser extension which will redirect you to the secure https version of *some* sites automatically. Ultimately though a few sites just don't provide support for https. Browsing insecurely is okay for the most part, but never submit any details to them by filling out forms with your personal details (credit card number, address, username, password etc) or by uploading files to them.
 
+But while https will protect you from a passive eavesropper, it won't stop an active "man in the middle" from impersonating the site you are connecting to. That's why it's important to verify the https certificate as well. The previously mentontioned https everywhere plugin is good for this - it will check that the certificate you get from a site is the same one that other people are seeing. It does this through the "SSL Observatory" features, so be sure to open up the options and enable them. [Certificate patrol](https://addons.mozilla.org/en-US/firefox/addon/certificate-patrol/) is another good plugin but it takes a bit of decision making on your part to use it properly.
+
+Finally enable OCSP validation. Sometimes the bad guys get their hands on a valid site certificate, at which point it's necessary to "revoke" it. OCSP let's you do that automatically. In your firefox preferences go to advanced->encryption->validation and enable all the options.
+
 ### Email and OpenPGP
 
-Using OpenPGP you can encrypt your messages so that only the recipient can read them. I won't go into details as i don't think it is "for the lazy", and it also depends on the other party using it as well. If you are interested, read the [cryptoparty handbook](https://cryptoparty.org/wiki/CryptoPartyHandbook) and get started by installing [GnuPG](http://gnupg.org/), [Thunderbird](https://www.mozilla.org/thunderbird/), and [Enigmail](http://www.enigmail.net/home/index.php).
+Using OpenPGP you can encrypt your messages so that only the recipient can read them. I won't go into details as i don't think it is "for the lazy", and it also depends on the other party using it as well. If you are interested, read the [cryptoparty handbook](https://cryptoparty.org/wiki/CryptoPartyHandbook) and get started by installing [GnuPG](http://gnupg.org/), [Thunderbird](https://www.mozilla.org/thunderbird/), and [Enigmail](http://www.enigmail.net/home/index.php). Then send me an encrypted email!
 
 ### Instant messaging Off The Record (OTR)
 
@@ -221,6 +225,8 @@ Hit the "Configure Plugin" button and generate yourself a private key. Now when 
 ![chatting without encryption](images/pidgin-not-encrypted.png)
 
 ![chatting with encryption](images/pidgin-encrypted.png)
+
+Again, encryption by itself will only protect you from a passive eavesdropper, not an active "man in the middle". To safeguard against that, it's important to check the "fingerprint" of the person you are chatting with. In pidgin you can do this by authenticating your "buddy" which you'll find under the private/not private button in a conversation. Look at the fingerprint displayed and then use a different communication channel like a phone to verify that the other person's fingerprint matches.
 
 Google talk and Facebook chat work via XMPP behind the scenes so they work with both pidgin and OTR. Bad news for Skypers - you'll have to change networks. Mobile chatters should use [Gibberbot](https://play.google.com/store/apps/details?id=info.guardianproject.otr.app.im) on Android or [ChatSecure](http://chrisballinger.info/apps/chatsecure/) on iOS.
 
