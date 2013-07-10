@@ -247,9 +247,13 @@
 
 <p>I recommend installing the <a href="https://www.eff.org/https-everywhere">https everywhere</a> browser extension which will redirect you to the secure https version of <em>some</em> sites automatically. Ultimately though a few sites just don't provide support for https. Browsing insecurely is okay for the most part, but never submit any details to them by filling out forms with your personal details (credit card number, address, username, password etc) or by uploading files to them.</p>
 
+<p>But while https will protect you from a passive eavesropper, it won't stop an active "man in the middle" from impersonating the site you are connecting to. That's why it's important to verify the https certificate as well. The previously mentontioned https everywhere plugin is good for this - it will check that the certificate you get from a site is the same one that other people are seeing. It does this through the "SSL Observatory" features, so be sure to open up the options and enable them. <a href="https://addons.mozilla.org/en-US/firefox/addon/certificate-patrol/">Certificate patrol</a> is another good plugin but it takes a bit of decision making on your part to use it properly.</p>
+
+<p>Finally enable OCSP validation. Sometimes the bad guys get their hands on a valid site certificate, at which point it's necessary to "revoke" it. OCSP let's you do that automatically. In your firefox preferences go to advanced->encryption->validation and enable all the options.</p>
+
 <h3>Email and OpenPGP</h3>
 
-<p>Using OpenPGP you can encrypt your messages so that only the recipient can read them. I won't go into details as i don't think it is "for the lazy", and it also depends on the other party using it as well. If you are interested, read the <a href="https://cryptoparty.org/wiki/CryptoPartyHandbook">cryptoparty handbook</a> and get started by installing <a href="http://gnupg.org/">GnuPG</a>, <a href="https://www.mozilla.org/thunderbird/">Thunderbird</a>, and <a href="http://www.enigmail.net/home/index.php">Enigmail</a>.</p>
+<p>Using OpenPGP you can encrypt your messages so that only the recipient can read them. I won't go into details as i don't think it is "for the lazy", and it also depends on the other party using it as well. If you are interested, read the <a href="https://cryptoparty.org/wiki/CryptoPartyHandbook">cryptoparty handbook</a> and get started by installing <a href="http://gnupg.org/">GnuPG</a>, <a href="https://www.mozilla.org/thunderbird/">Thunderbird</a>, and <a href="http://www.enigmail.net/home/index.php">Enigmail</a>. Then send me an encrypted email!</p>
 
 <h3>Instant messaging Off The Record (OTR)</h3>
 
@@ -262,6 +266,8 @@
 <p><img src="images/pidgin-not-encrypted.png" alt="chatting without encryption" title="" /></p>
 
 <p><img src="images/pidgin-encrypted.png" alt="chatting with encryption" title="" /></p>
+
+<p>Again, encryption by itself will only protect you from a passive eavesdropper, not an active "man in the middle". To safeguard against that, it's important to check the "fingerprint" of the person you are chatting with. In pidgin you can do this by authenticating your "buddy" which you'll find under the private/not private button in a conversation. Look at the fingerprint displayed and then use a different communication channel like a phone to verify that the other person's fingerprint matches.</p>
 
 <p>Google talk and Facebook chat work via XMPP behind the scenes so they work with both pidgin and OTR. Bad news for Skypers - you'll have to change networks. Mobile chatters should use <a href="https://play.google.com/store/apps/details?id=info.guardianproject.otr.app.im">Gibberbot</a> on Android or <a href="http://chrisballinger.info/apps/chatsecure/">ChatSecure</a> on iOS.</p>
 
@@ -354,7 +360,7 @@
 <p>Contact / Questions:</p>
 
 <ul>
-<li><a href="mailto:danielkinsman@riseup.net">danielkinsman@riseup.net</a> (<a href="http://sks.spodhuis.org/pks/lookup?op=vindex&amp;search=0x709C423C750B8627">gpg key</a>)</li>
+<li><a href="mailto:danielkinsman@riseup.net">danielkinsman@riseup.net</a> (<a href="https://danielkinsman.wordpress.com/about-me/pgp-gnupg-public-key/">gpg key</a>)</li>
 </ul>
 
       </section>
